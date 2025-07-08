@@ -1,10 +1,3 @@
 {
-  "mappings": [
-    "/content/ix-aem-boilerplate-xwalk/:/",
-    "/content/ix-aem-boilerplate-xwalk/configuration:/.helix/config.json",
-    "/content/ix-aem-boilerplate-xwalk/metadata:/metadata.json"
-  ],
-  "includes": [
-      "/content/ix-aem-boilerplate-xwalk/"
-    ]
+  "/": "/"
 }
