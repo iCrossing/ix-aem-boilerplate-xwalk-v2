@@ -1,0 +1,56 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --list-text-spacing-hor-padding-left-ordered-level1: var(--spacing-none);
+  --list-text-spacing-hor-padding-left-ordered-level2: var(--spacing-sm4);
+  --list-text-spacing-hor-padding-left-unordered-level1: var(--spacing-none);
+  --list-text-spacing-hor-padding-left-unordered-level2: var(--spacing-sm3);
+  --list-text-spacing-hor-padding-left-none-level1: var(--spacing-none);
+  --list-text-spacing-hor-padding-right-ordered-level1: var(--spacing-none);
+  --list-text-spacing-hor-padding-right-ordered-level2: var(--spacing-none);
+  --list-text-spacing-hor-padding-right-unordered-level1: var(--spacing-none);
+  --list-text-spacing-hor-padding-right-unordered-level2: var(--spacing-none);
+  --list-text-spacing-hor-padding-right-none-level1: var(--spacing-none);
+  --list-text-spacing-ver-padding-top-ordered-level1: var(--spacing-none);
+  --list-text-spacing-ver-padding-top-ordered-level2: var(--spacing-none);
+  --list-text-spacing-ver-padding-top-unordered-level1: var(--spacing-none);
+  --list-text-spacing-ver-padding-top-unordered-level2: var(--spacing-none);
+  --list-text-spacing-ver-padding-top-none-level1: var(--spacing-none);
+  --list-text-spacing-ver-padding-bottom-ordered-level1: var(--spacing-none);
+  --list-text-spacing-ver-padding-bottom-ordered-level2: var(--spacing-none);
+  --list-text-spacing-ver-padding-bottom-unordered-level1: var(--spacing-none);
+  --list-text-spacing-ver-padding-bottom-unordered-level2: var(--spacing-none);
+  --list-text-spacing-ver-padding-bottom-none-level1: var(--spacing-none);
+  --list-text-spacing-hor-item-ordered-level1: var(--spacing-xs2);
+  --list-text-spacing-hor-item-ordered-level2: var(--spacing-xs2);
+  --list-text-spacing-hor-item-unordered-level1: var(--spacing-xs3);
+  --list-text-spacing-hor-item-unordered-level2: var(--spacing-xs2);
+  --list-item-spacing-hor-padding-left-ordered: var(--spacing-none);
+  --list-item-spacing-hor-padding-left-unordered: var(--spacing-none);
+  --list-item-spacing-hor-padding-right-ordered: var(--spacing-none);
+  --list-item-spacing-hor-padding-right-unordered: var(--spacing-none);
+  --list-item-spacing-ver-padding-top-ordered: var(--spacing-none);
+  --list-item-spacing-ver-padding-top-unordered: var(--spacing-none);
+  --list-item-spacing-ver-padding-bottom-ordered: var(--spacing-none);
+  --list-item-spacing-ver-padding-bottom-unordered: var(--spacing-none);
+  --list-item-spacing-ver-item-ordered: var(--spacing-xs1);
+  --list-item-spacing-ver-item-unordered: var(--spacing-xs1);
+  --list-spacing-hor-padding-left-ordered: var(--spacing-none);
+  --list-spacing-hor-padding-left-unordered: var(--spacing-none);
+  --list-spacing-hor-padding-left-none: var(--spacing-none);
+  --list-spacing-hor-padding-right-ordered: var(--spacing-none);
+  --list-spacing-hor-padding-right-unordered: var(--spacing-none);
+  --list-spacing-hor-padding-right-none: var(--spacing-none);
+  --list-spacing-ver-padding-top-ordered: var(--spacing-none);
+  --list-spacing-ver-padding-top-unordered: var(--spacing-none);
+  --list-spacing-ver-padding-top-none: var(--spacing-none);
+  --list-spacing-ver-padding-bottom-ordered: var(--spacing-none);
+  --list-spacing-ver-padding-bottom-unordered: var(--spacing-none);
+  --list-spacing-ver-padding-bottom-none: var(--spacing-none);
+  --list-spacing-ver-item-sm: var(--spacing-xs2);
+  --list-spacing-ver-item-md: var(--spacing-xs3);
+  --list-spacing-ver-item-lg: var(--spacing-sm1);
+}

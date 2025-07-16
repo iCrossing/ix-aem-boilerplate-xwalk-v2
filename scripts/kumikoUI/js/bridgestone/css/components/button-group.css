@@ -1,0 +1,15 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --button-group-spacing-hor-item-xs: var(--spacing-xs2);
+  --button-group-spacing-hor-item-sm: var(--spacing-xs3);
+  --button-group-spacing-hor-item-md: var(--spacing-sm1);
+  --button-group-spacing-hor-item-lg: var(--spacing-sm2);
+  --button-group-spacing-ver-item-xs: var(--spacing-xs2);
+  --button-group-spacing-ver-item-sm: var(--spacing-xs3);
+  --button-group-spacing-ver-item-md: var(--spacing-sm1);
+  --button-group-spacing-ver-item-lg: var(--spacing-sm2);
+}

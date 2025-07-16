@@ -1,0 +1,157 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --link-color-text-fill-primary-default: var(--color-action-default-3);
+  --link-color-text-fill-primary-hover: var(--color-action-hover-5);
+  --link-color-text-fill-primary-focus: var(--color-action-default-3);
+  --link-color-text-fill-primary-pressed: var(--color-action-pressed-5);
+  --link-color-text-fill-primary-disabled: var(--color-action-disabled-3);
+  --link-color-text-fill-secondary-default: var(--color-action-default-5);
+  --link-color-text-fill-secondary-hover: var(--color-action-hover-6);
+  --link-color-text-fill-secondary-focus: var(--color-action-default-5);
+  --link-color-text-fill-secondary-pressed: var(--color-action-pressed-7);
+  --link-color-text-fill-secondary-disabled: var(--color-action-disabled-3);
+  --link-color-container-fill-primary-default: var(--color-container-fill-no-fill);
+  --link-color-container-fill-primary-hover: var(--color-container-fill-no-fill);
+  --link-color-container-fill-primary-focus: var(--color-container-fill-no-fill);
+  --link-color-container-fill-primary-pressed: var(--color-container-fill-no-fill);
+  --link-color-container-fill-primary-disabled: var(--color-container-fill-no-fill);
+  --link-color-container-fill-secondary-default: var(--color-container-fill-no-fill);
+  --link-color-container-fill-secondary-hover: var(--color-container-fill-no-fill);
+  --link-color-container-fill-secondary-focus: var(--color-container-fill-no-fill);
+  --link-color-container-fill-secondary-pressed: var(--color-container-fill-no-fill);
+  --link-color-container-fill-secondary-disabled: var(--color-container-fill-no-fill);
+  --link-color-icon-fill-primary-default: var(--color-action-default-3);
+  --link-color-icon-fill-primary-hover: var(--color-action-hover-5);
+  --link-color-icon-fill-primary-focus: var(--color-text-fill-2);
+  --link-color-icon-fill-primary-pressed: var(--color-action-pressed-5);
+  --link-color-icon-fill-primary-disabled: var(--color-action-disabled-3);
+  --link-color-icon-fill-secondary-default: var(--color-action-default-5);
+  --link-color-icon-fill-secondary-hover: var(--color-action-hover-6);
+  --link-color-icon-fill-secondary-focus: var(--color-action-default-5);
+  --link-color-icon-fill-secondary-pressed: var(--color-action-pressed-7);
+  --link-color-icon-fill-secondary-disabled: var(--color-action-disabled-3);
+  --link-border-radius-primary-default: var(--border-radius-none);
+  --link-border-radius-primary-hover: var(--border-radius-none);
+  --link-border-radius-primary-focus: var(--border-radius-xs);
+  --link-border-radius-primary-pressed: var(--border-radius-none);
+  --link-border-radius-primary-disabled: var(--border-radius-none);
+  --link-border-radius-secondary-default: var(--border-radius-none);
+  --link-border-radius-secondary-hover: var(--border-radius-none);
+  --link-border-radius-secondary-focus: var(--border-radius-xs);
+  --link-border-radius-secondary-pressed: var(--border-radius-none);
+  --link-border-radius-secondary-disabled: var(--border-radius-none);
+  --link-spacing-hor-item-xs: var(--spacing-xs1);
+  --link-spacing-hor-item-sm: var(--spacing-xs1);
+  --link-spacing-hor-item-md: var(--spacing-xs1);
+  --link-spacing-hor-item-lg: var(--spacing-xs1);
+  --link-spacing-hor-item-xl: var(--spacing-xs1);
+  --link-spacing-hor-padding-left-xs: var(--spacing-xxs);
+  --link-spacing-hor-padding-left-sm: var(--spacing-xxs);
+  --link-spacing-hor-padding-left-md: var(--spacing-xxs);
+  --link-spacing-hor-padding-left-lg: var(--spacing-xxs);
+  --link-spacing-hor-padding-left-xl: var(--spacing-xxs);
+  --link-spacing-hor-padding-right-xs: var(--spacing-xxs);
+  --link-spacing-hor-padding-right-sm: var(--spacing-xxs);
+  --link-spacing-hor-padding-right-md: var(--spacing-xxs);
+  --link-spacing-hor-padding-right-lg: var(--spacing-xxs);
+  --link-spacing-hor-padding-right-xl: var(--spacing-xxs);
+  --link-spacing-ver-padding-top-xs: var(--spacing-xs1);
+  --link-spacing-ver-padding-top-sm: var(--spacing-xs1);
+  --link-spacing-ver-padding-top-md: var(--spacing-xs1);
+  --link-spacing-ver-padding-top-lg: var(--spacing-xs1);
+  --link-spacing-ver-padding-top-xl: var(--spacing-xs1);
+  --link-spacing-ver-padding-bottom-xs: var(--spacing-xs1);
+  --link-spacing-ver-padding-bottom-sm: var(--spacing-xs1);
+  --link-spacing-ver-padding-bottom-md: var(--spacing-xs1);
+  --link-spacing-ver-padding-bottom-lg: var(--spacing-xs1);
+  --link-spacing-ver-padding-bottom-xl: var(--spacing-xs1);
+  --link-sizing-icon-container-xs: var(--sizing-xs3);
+  --link-sizing-icon-container-sm: var(--sizing-sm1);
+  --link-sizing-icon-container-md: var(--sizing-sm2);
+  --link-sizing-icon-container-lg: var(--sizing-sm3);
+  --link-sizing-icon-container-xl: var(--sizing-sm4);
+  --link-sizing-icon-xs: var(--sizing-icon-xs);
+  --link-sizing-icon-sm: var(--sizing-icon-sm);
+  --link-sizing-icon-md: var(--sizing-icon-md);
+  --link-sizing-icon-lg: var(--sizing-icon-md);
+  --link-sizing-icon-xl: var(--sizing-icon-lg);
+  --link-border-style-underline-primary-default: var(--border-style-solid-action-default-xs3);
+  --link-border-style-underline-primary-hover: var(--border-style-solid-action-hover-xs5);
+  --link-border-style-underline-primary-focus: var(--border-style-solid-action-default-xs3);
+  --link-border-style-underline-primary-pressed: var(--border-style-solid-action-pressed-xs5);
+  --link-border-style-underline-primary-disabled: var(--border-style-solid-action-disabled-xs3);
+  --link-border-style-underline-secondary-default: var(--border-style-solid-action-default-xs5);
+  --link-border-style-underline-secondary-hover: var(--border-style-solid-action-hover-xs6);
+  --link-border-style-underline-secondary-focus: var(--border-style-solid-action-default-xs5);
+  --link-border-style-underline-secondary-pressed: var(--border-style-solid-action-pressed-xs7);
+  --link-border-style-underline-secondary-disabled: var(--border-style-solid-action-disabled-xs3);
+  --link-border-style-container-primary-default: var(--border-style-none-xs);
+  --link-border-style-container-primary-hover: var(--border-style-none-xs);
+  --link-border-style-container-primary-focus: var(--border-style-dashed-action-focus-xs3);
+  --link-border-style-container-primary-pressed: var(--border-style-none-xs);
+  --link-border-style-container-primary-disabled: var(--border-style-none-xs);
+  --link-border-style-container-secondary-default: var(--border-style-none-xs);
+  --link-border-style-container-secondary-hover: var(--border-style-none-xs);
+  --link-border-style-container-secondary-focus: var(--border-style-dashed-action-focus-xs4);
+  --link-border-style-container-secondary-pressed: var(--border-style-none-xs);
+  --link-border-style-container-secondary-disabled: var(--border-style-none-xs);
+
+  /**  link-fonts-xs  **/
+  --link-fonts-xs-font-weight: var(--fonts-body-ui-xs1-font-weight);
+  --link-fonts-xs-font-size: var(--fonts-body-ui-xs1-font-size);
+  --link-fonts-xs-line-height: var(--fonts-body-ui-xs1-line-height);
+  --link-fonts-xs-font-family: var(--fonts-body-ui-xs1-font-family);
+  --link-fonts-xs-letter-spacing: var(--fonts-body-ui-xs1-letter-spacing);
+  --link-fonts-xs-margin-spacing: var(--fonts-body-ui-xs1-margin-spacing);
+  --link-fonts-xs-text-indent: var(--fonts-body-ui-xs1-text-indent);
+  --link-fonts-xs-text-transform: var(--fonts-body-ui-xs1-text-transform);
+  --link-fonts-xs-text-decoration: var(--fonts-body-ui-xs1-text-decoration);
+
+  /**  link-fonts-sm  **/
+  --link-fonts-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --link-fonts-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --link-fonts-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --link-fonts-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --link-fonts-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --link-fonts-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --link-fonts-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --link-fonts-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --link-fonts-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  link-fonts-md  **/
+  --link-fonts-md-font-weight: var(--fonts-body-ui-md1-font-weight);
+  --link-fonts-md-font-size: var(--fonts-body-ui-md1-font-size);
+  --link-fonts-md-line-height: var(--fonts-body-ui-md1-line-height);
+  --link-fonts-md-font-family: var(--fonts-body-ui-md1-font-family);
+  --link-fonts-md-letter-spacing: var(--fonts-body-ui-md1-letter-spacing);
+  --link-fonts-md-margin-spacing: var(--fonts-body-ui-md1-margin-spacing);
+  --link-fonts-md-text-indent: var(--fonts-body-ui-md1-text-indent);
+  --link-fonts-md-text-transform: var(--fonts-body-ui-md1-text-transform);
+  --link-fonts-md-text-decoration: var(--fonts-body-ui-md1-text-decoration);
+
+  /**  link-fonts-lg  **/
+  --link-fonts-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --link-fonts-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --link-fonts-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --link-fonts-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --link-fonts-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --link-fonts-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --link-fonts-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --link-fonts-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --link-fonts-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  link-fonts-xl  **/
+  --link-fonts-xl-font-weight: var(--fonts-body-ui-xl1-font-weight);
+  --link-fonts-xl-font-size: var(--fonts-body-ui-xl1-font-size);
+  --link-fonts-xl-line-height: var(--fonts-body-ui-xl1-line-height);
+  --link-fonts-xl-font-family: var(--fonts-body-ui-xl1-font-family);
+  --link-fonts-xl-letter-spacing: var(--fonts-body-ui-xl1-letter-spacing);
+  --link-fonts-xl-margin-spacing: var(--fonts-body-ui-xl1-margin-spacing);
+  --link-fonts-xl-text-indent: var(--fonts-body-ui-xl1-text-indent);
+  --link-fonts-xl-text-transform: var(--fonts-body-ui-xl1-text-transform);
+  --link-fonts-xl-text-decoration: var(--fonts-body-ui-xl1-text-decoration);
+}

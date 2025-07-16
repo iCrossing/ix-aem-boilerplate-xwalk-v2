@@ -1,0 +1,27 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --breadcrumbs-sizing-icon-separator-sm: var(--sizing-icon-xs);
+  --breadcrumbs-sizing-icon-separator-md: var(--sizing-icon-sm);
+  --breadcrumbs-sizing-icon-separator-lg: var(--sizing-icon-md);
+  --breadcrumbs-spacing-hor-padding-left-sm: var(--spacing-none);
+  --breadcrumbs-spacing-hor-padding-left-md: var(--spacing-none);
+  --breadcrumbs-spacing-hor-padding-left-lg: var(--spacing-none);
+  --breadcrumbs-spacing-hor-padding-right-sm: var(--spacing-none);
+  --breadcrumbs-spacing-hor-padding-right-md: var(--spacing-none);
+  --breadcrumbs-spacing-hor-padding-right-lg: var(--spacing-none);
+  --breadcrumbs-spacing-ver-padding-top-sm: var(--spacing-none);
+  --breadcrumbs-spacing-ver-padding-top-md: var(--spacing-none);
+  --breadcrumbs-spacing-ver-padding-top-lg: var(--spacing-none);
+  --breadcrumbs-spacing-ver-padding-bottom-sm: var(--spacing-none);
+  --breadcrumbs-spacing-ver-padding-bottom-md: var(--spacing-none);
+  --breadcrumbs-spacing-ver-padding-bottom-lg: var(--spacing-none);
+  --breadcrumbs-spacing-hor-item-sm: var(--spacing-xs2);
+  --breadcrumbs-spacing-hor-item-md: var(--spacing-xs3);
+  --breadcrumbs-spacing-hor-item-lg: var(--spacing-xs3);
+  --breadcrumbs-color-icon-fill-separator: var(--color-icon-fill-4);
+  --breadcrumbs-color-text-fill-separator: var(--color-text-fill-3);
+}

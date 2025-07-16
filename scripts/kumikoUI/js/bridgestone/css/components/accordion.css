@@ -1,0 +1,90 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --accordion-color-text-fill-collapsed-title-default: var(--color-text-fill-4);
+  --accordion-color-text-fill-collapsed-title-hover: var(--color-text-fill-4);
+  --accordion-color-text-fill-collapsed-title-focus: var(--color-text-fill-4);
+  --accordion-color-text-fill-collapsed-description-default: var(--color-text-fill-4);
+  --accordion-color-text-fill-collapsed-description-hover: var(--color-text-fill-4);
+  --accordion-color-text-fill-collapsed-description-focus: var(--color-text-fill-4);
+  --accordion-color-text-fill-expanded-title-default: var(--color-text-fill-4);
+  --accordion-color-text-fill-expanded-title-hover: var(--color-text-fill-4);
+  --accordion-color-text-fill-expanded-title-focus: var(--color-text-fill-4);
+  --accordion-color-text-fill-expanded-description-default: var(--color-text-fill-4);
+  --accordion-color-text-fill-expanded-description-hover: var(--color-text-fill-4);
+  --accordion-color-text-fill-expanded-description-focus: var(--color-text-fill-4);
+  --accordion-color-icon-fill-collapsed-default: var(--color-icon-fill-5);
+  --accordion-color-icon-fill-collapsed-hover: var(--color-icon-fill-5);
+  --accordion-color-icon-fill-collapsed-focus: var(--color-icon-fill-5);
+  --accordion-color-icon-fill-expanded-default: var(--color-icon-fill-5);
+  --accordion-color-icon-fill-expanded-hover: var(--color-icon-fill-5);
+  --accordion-color-icon-fill-expanded-focus: var(--color-icon-fill-5);
+  --accordion-color-container-fill-collapsed-default: var(--color-action-default-2);
+  --accordion-color-container-fill-collapsed-hover: var(--color-action-hover-3);
+  --accordion-color-container-fill-collapsed-focus: var(--color-action-default-2);
+  --accordion-color-container-fill-expanded-header-default: var(--color-action-default-2);
+  --accordion-color-container-fill-expanded-header-hover: var(--color-action-hover-3);
+  --accordion-color-container-fill-expanded-header-focus: var(--color-action-default-2);
+
+  /**  accordion-fonts-title  **/
+  --accordion-fonts-title-font-weight: var(--fonts-heading-desktop-h6-font-weight);
+  --accordion-fonts-title-font-size: var(--fonts-heading-desktop-h6-font-size);
+  --accordion-fonts-title-line-height: var(--fonts-heading-desktop-h6-line-height);
+  --accordion-fonts-title-font-family: var(--fonts-heading-desktop-h6-font-family);
+  --accordion-fonts-title-letter-spacing: var(--fonts-heading-desktop-h6-letter-spacing);
+  --accordion-fonts-title-margin-spacing: var(--fonts-heading-desktop-h6-margin-spacing);
+  --accordion-fonts-title-text-indent: var(--fonts-heading-desktop-h6-text-indent);
+  --accordion-fonts-title-text-transform: var(--fonts-heading-desktop-h6-text-transform);
+  --accordion-fonts-title-text-decoration: var(--fonts-heading-desktop-h6-text-decoration);
+
+  /**  accordion-fonts-description  **/
+  --accordion-fonts-description-font-weight: var(--fonts-body-ui-md1-font-weight);
+  --accordion-fonts-description-font-size: var(--fonts-body-ui-md1-font-size);
+  --accordion-fonts-description-line-height: var(--fonts-body-ui-md1-line-height);
+  --accordion-fonts-description-font-family: var(--fonts-body-ui-md1-font-family);
+  --accordion-fonts-description-letter-spacing: var(--fonts-body-ui-md1-letter-spacing);
+  --accordion-fonts-description-margin-spacing: var(--fonts-body-ui-md1-margin-spacing);
+  --accordion-fonts-description-text-indent: var(--fonts-body-ui-md1-text-indent);
+  --accordion-fonts-description-text-transform: var(--fonts-body-ui-md1-text-transform);
+  --accordion-fonts-description-text-decoration: var(--fonts-body-ui-md1-text-decoration);
+  --accordion-spacing-ver-item-collapsed: var(--spacing-xs3);
+  --accordion-spacing-ver-item-expanded-header: var(--spacing-xs3);
+  --accordion-spacing-ver-item-expanded-container: var(--spacing-sm1);
+  --accordion-spacing-ver-item-group: var(--spacing-xs3);
+  --accordion-spacing-ver-padding-collapsed-top: var(--spacing-sm3);
+  --accordion-spacing-ver-padding-collapsed-bottom: var(--spacing-sm3);
+  --accordion-spacing-ver-padding-expanded-header-top: var(--spacing-sm3);
+  --accordion-spacing-ver-padding-expanded-header-bottom: var(--spacing-sm3);
+  --accordion-spacing-ver-padding-expanded-container-top: var(--spacing-none);
+  --accordion-spacing-ver-padding-expanded-container-bottom: var(--spacing-none);
+  --accordion-spacing-hor-item-collapsed: var(--spacing-xs3);
+  --accordion-spacing-hor-item-expanded-header: var(--spacing-xs3);
+  --accordion-spacing-hor-padding-collapsed-left: var(--spacing-xs3);
+  --accordion-spacing-hor-padding-collapsed-right: var(--spacing-xs3);
+  --accordion-spacing-hor-padding-expanded-header-left: var(--spacing-xs3);
+  --accordion-spacing-hor-padding-expanded-header-right: var(--spacing-xs3);
+  --accordion-spacing-hor-padding-expanded-container-left: var(--spacing-none);
+  --accordion-spacing-hor-padding-expanded-container-right: var(--spacing-none);
+  --accordion-border-radius-collapsed-default: var(--border-radius-none);
+  --accordion-border-radius-collapsed-hover: var(--border-radius-none);
+  --accordion-border-radius-collapsed-focus: var(--border-radius-none);
+  --accordion-border-radius-expanded-header-default: var(--border-radius-none);
+  --accordion-border-radius-expanded-header-hover: var(--border-radius-none);
+  --accordion-border-radius-expanded-header-focus: var(--border-radius-none);
+  --accordion-sizing-icon: var(--sizing-icon-xl);
+  --accordion-border-style-collapsed-default: var(--border-style-none-xs);
+  --accordion-border-style-collapsed-hover: var(--border-style-none-xs);
+  --accordion-border-style-collapsed-focus: var(--border-style-dashed-xs3);
+  --accordion-border-style-expanded-header-default: var(--border-style-none-xs);
+  --accordion-border-style-expanded-header-hover: var(--border-style-none-xs);
+  --accordion-border-style-expanded-header-focus: var(--border-style-dashed-xs3);
+  --accordion-elevation-collapsed-default: var(--elevation-none);
+  --accordion-elevation-collapsed-hover: var(--elevation-none);
+  --accordion-elevation-collapsed-focus: var(--elevation-none);
+  --accordion-elevation-expanded-header-default: var(--elevation-none);
+  --accordion-elevation-expanded-header-hover: var(--elevation-none);
+  --accordion-elevation-expanded-header-focus: var(--elevation-none);
+}

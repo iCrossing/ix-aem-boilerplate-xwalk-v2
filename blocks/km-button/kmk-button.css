@@ -1,0 +1,14 @@
+/* EDS Block wrapper styles */
+.kumiko-button-wrapper {
+    display: contents; /* Make wrapper transparent */
+  }
+  
+  /* Optional: EDS-specific overrides */
+  .kumiko-button-wrapper kmk-button {
+    /* Any EDS-specific styling if needed */
+  }
+  
+  /* Fallback styles for when web component fails to load */
+  .kumiko-button-wrapper .button {
+    /* EDS default button styles as fallback */
+  }

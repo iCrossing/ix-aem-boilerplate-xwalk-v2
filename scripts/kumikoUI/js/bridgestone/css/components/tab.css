@@ -1,0 +1,87 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --tab-color-text-fill-selected-default: var(--color-text-fill-2);
+  --tab-color-text-fill-selected-focus: var(--color-text-fill-2);
+  --tab-color-text-fill-not-selected-default: var(--color-text-fill-3);
+  --tab-color-text-fill-not-selected-hover-with-stroke: var(--color-text-fill-3);
+  --tab-color-text-fill-not-selected-hover-no-stroke: var(--color-action-hover-6);
+  --tab-color-text-fill-not-selected-focus: var(--color-text-fill-3);
+  --tab-color-text-fill-disabled: var(--color-action-disabled-2);
+  --tab-color-container-fill-selected-default: var(--color-container-fill-no-fill);
+  --tab-color-container-fill-selected-focus: var(--color-container-fill-no-fill);
+  --tab-color-container-fill-not-selected-default: var(--color-container-fill-no-fill);
+  --tab-color-container-fill-not-selected-hover: var(--color-container-fill-no-fill);
+  --tab-color-container-fill-not-selected-focus: var(--color-container-fill-no-fill);
+  --tab-color-container-fill-disabled: var(--color-container-fill-no-fill);
+  --tab-color-icon-fill-selected-default: var(--color-text-fill-2);
+  --tab-color-icon-fill-selected-focus: var(--color-text-fill-2);
+  --tab-color-icon-fill-not-selected-default: var(--color-text-fill-3);
+  --tab-color-icon-fill-not-selected-hover-with-stroke: var(--color-text-fill-3);
+  --tab-color-icon-fill-not-selected-hover-no-stroke: var(--color-action-hover-6);
+  --tab-color-icon-fill-not-selected-focus: var(--color-text-fill-3);
+  --tab-color-icon-fill-disabled: var(--color-action-disabled-2);
+
+  /**  tab-fonts-label  **/
+  --tab-fonts-label-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --tab-fonts-label-font-size: var(--fonts-body-ui-lg1-font-size);
+  --tab-fonts-label-line-height: var(--fonts-body-ui-lg1-line-height);
+  --tab-fonts-label-font-family: var(--fonts-body-ui-lg1-font-family);
+  --tab-fonts-label-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --tab-fonts-label-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --tab-fonts-label-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --tab-fonts-label-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --tab-fonts-label-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+  --tab-spacing-label-hor-padding-left: var(--spacing-xs1);
+  --tab-spacing-label-hor-padding-right: var(--spacing-xs1);
+  --tab-spacing-label-ver-padding-top: var(--spacing-none);
+  --tab-spacing-label-ver-padding-bottom: var(--spacing-none);
+  --tab-spacing-label-hor-item: var(--spacing-xs2);
+  --tab-spacing-container-hor-padding-left-sm: var(--spacing-xs2);
+  --tab-spacing-container-hor-padding-left-md: var(--spacing-xs3);
+  --tab-spacing-container-hor-padding-left-lg: var(--spacing-sm1);
+  --tab-spacing-container-hor-padding-right-sm: var(--spacing-xs2);
+  --tab-spacing-container-hor-padding-right-md: var(--spacing-xs3);
+  --tab-spacing-container-hor-padding-right-lg: var(--spacing-sm1);
+  --tab-spacing-container-ver-padding-top-sm: var(--spacing-xs2);
+  --tab-spacing-container-ver-padding-top-md: var(--spacing-xs3);
+  --tab-spacing-container-ver-padding-top-lg: var(--spacing-sm1);
+  --tab-spacing-container-ver-padding-bottom-sm: var(--spacing-xs2);
+  --tab-spacing-container-ver-padding-bottom-md: var(--spacing-xs3);
+  --tab-spacing-container-ver-padding-bottom-lg: var(--spacing-sm1);
+  --tab-sizing-icon-container: var(--sizing-sm2);
+  --tab-sizing-icon: var(--sizing-icon-md);
+  --tab-elevation-selected-default: var(--elevation-none);
+  --tab-elevation-selected-focus: var(--elevation-none);
+  --tab-elevation-not-selected-default: var(--elevation-none);
+  --tab-elevation-not-selected-hover: var(--elevation-none);
+  --tab-elevation-not-selected-focus: var(--elevation-none);
+  --tab-elevation-disabled: var(--elevation-none);
+  --tab-border-radius-container-selected-default: var(--border-radius-none);
+  --tab-border-radius-container-selected-focus: var(--border-radius-none);
+  --tab-border-radius-container-not-selected-default: var(--border-radius-none);
+  --tab-border-radius-container-not-selected-focus: var(--border-radius-none);
+  --tab-border-radius-container-not-selected-hover: var(--border-radius-none);
+  --tab-border-radius-container-disabled: var(--border-radius-none);
+  --tab-border-radius-label-selected-default: var(--border-radius-none);
+  --tab-border-radius-label-selected-focus: var(--border-radius-xs);
+  --tab-border-radius-label-not-selected-default: var(--border-radius-none);
+  --tab-border-radius-label-not-selected-focus: var(--border-radius-xs);
+  --tab-border-radius-label-not-selected-hover: var(--border-radius-none);
+  --tab-border-radius-label-disabled: var(--border-radius-none);
+  --tab-border-style-container-not-selected-default: var(--border-style-solid-action-default-xs4);
+  --tab-border-style-container-not-selected-hover: var(--border-style-solid-action-hover-xs4);
+  --tab-border-style-container-not-selected-focus: var(--border-style-solid-action-default-xs4);
+  --tab-border-style-container-selected-default: var(--border-style-solid-action-default-xs3);
+  --tab-border-style-container-selected-focus: var(--border-style-solid-action-default-xs3);
+  --tab-border-style-container-disabled: var(--border-style-solid-action-disabled-xs2);
+  --tab-border-style-label-not-selected-default: var(--border-style-none-xs);
+  --tab-border-style-label-not-selected-hover: var(--border-style-none-xs);
+  --tab-border-style-label-not-selected-focus: var(--border-style-dashed-action-focus-xs3);
+  --tab-border-style-label-selected-default: var(--border-style-none-xs);
+  --tab-border-style-label-selected-focus: var(--border-style-dashed-action-focus-xs3);
+  --tab-border-style-label-disabled: var(--border-style-none-xs);
+}

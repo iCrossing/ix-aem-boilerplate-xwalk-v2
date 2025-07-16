@@ -216,30 +216,168 @@
     ]
   },
   {
-    "id": "teaser ix",
+    "id": "kmk-button",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
+        "valueType": "string",
         "name": "text",
+        "label": "Button Text",
+        "value": "Button",
+        "description": "The text displayed on the button"
+      },
+      {
+        "component": "aem-content",
+        "name": "url",
+        "label": "Link URL",
+        "description": "URL the button should navigate to"
+      },
+      {
+        "component": "select",
+        "name": "variant",
+        "label": "Button Variant",
+        "value": "primary",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          },
+          {
+            "name": "Tertiary",
+            "value": "tertiary"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "size",
+        "label": "Button Size",
+        "value": "md",
+        "options": [
+          {
+            "name": "Small",
+            "value": "sm"
+          },
+          {
+            "name": "Medium",
+            "value": "md"
+          },
+          {
+            "name": "Large",
+            "value": "lg"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "target",
+        "label": "Link Target",
+        "value": "_self",
+        "options": [
+          {
+            "name": "Same Window",
+            "value": "_self"
+          },
+          {
+            "name": "New Window",
+            "value": "_blank"
+          },
+          {
+            "name": "Parent Frame",
+            "value": "_parent"
+          },
+          {
+            "name": "Top Frame",
+            "value": "_top"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "icon",
+        "label": "Icon Name",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "description": "Icon to display (e.g., arrow-right, download)"
+      },
+      {
+        "component": "select",
+        "name": "iconPosition",
+        "label": "Icon Position",
+        "value": "right",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "name": "fullWidth",
+        "label": "Full Width",
+        "value": false,
+        "description": "Make button span full width of container"
+      },
+      {
+        "component": "boolean",
+        "name": "disabled",
+        "label": "Disabled",
+        "value": false,
+        "description": "Disable the button"
+      },
+      {
+        "component": "boolean",
+        "name": "loading",
+        "label": "Loading State",
+        "value": false,
+        "description": "Show loading spinner"
       }
     ]
   },
   {
-    "id": "video ix",
+    "id": "teaser",
     "fields": [
       {
         "component": "reference",
-        "name": "video",
-        "label": "Video",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "name": "videoAlt",
-        "label": "Alt Text"
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "name": "textContent_text",
+        "label": "Text",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "aem-content",
+        "name": "textContent_cta",
+        "label": "CTA",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "textContent_ctaText",
+        "label": "CTA label",
+        "valueType": "string"
       }
     ]
   }

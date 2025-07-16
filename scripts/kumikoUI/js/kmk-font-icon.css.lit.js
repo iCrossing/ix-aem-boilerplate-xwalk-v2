@@ -1,0 +1,243 @@
+import { css as e } from "lit";
+const o = e`
+.kmk-icon {
+  display: inline-flex;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Kumiko-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dotForm:before {
+  content: "\\e900";
+}
+.icon-indeterminateForm:before {
+  content: "\\e901";
+}
+.icon-facebook:before {
+  content: "\\e902";
+}
+.icon-instagram:before {
+  content: "\\e903";
+}
+.icon-linkedin:before {
+  content: "\\e904";
+}
+.icon-xSocial:before {
+  content: "\\e905";
+}
+.icon-youtube:before {
+  content: "\\e906";
+}
+.icon-caretDown:before {
+  content: "\\e907";
+}
+.icon-caretLeft:before {
+  content: "\\e908";
+}
+.icon-caretRight:before {
+  content: "\\e909";
+}
+.icon-caretUp:before {
+  content: "\\e90a";
+}
+.icon-arrowDown300:before {
+  content: "\\e90b";
+}
+.icon-arrowLeft300:before {
+  content: "\\e90c";
+}
+.icon-arrowRight300:before {
+  content: "\\e90d";
+}
+.icon-arrowUp300:before {
+  content: "\\e90e";
+}
+.icon-bus300:before {
+  content: "\\e90f";
+}
+.icon-check300:before {
+  content: "\\e910";
+}
+.icon-chevronDown300:before {
+  content: "\\e911";
+}
+.icon-chevronLeft300:before {
+  content: "\\e912";
+}
+.icon-chevronRight300:before {
+  content: "\\e913";
+}
+.icon-chevronUp300:before {
+  content: "\\e914";
+}
+.icon-envelope300:before {
+  content: "\\e915";
+}
+.icon-externalLink300:before {
+  content: "\\e916";
+}
+.icon-filter300:before {
+  content: "\\e917";
+}
+.icon-globe300:before {
+  content: "\\e918";
+}
+.icon-leaf300:before {
+  content: "\\e919";
+}
+.icon-magnifyingGlass300:before {
+  content: "\\e91a";
+}
+.icon-minus300:before {
+  content: "\\e91b";
+}
+.icon-paperclip300:before {
+  content: "\\e91c";
+}
+.icon-phone300:before {
+  content: "\\e91d";
+}
+.icon-pin300:before {
+  content: "\\e91e";
+}
+.icon-play300:before {
+  content: "\\e91f";
+}
+.icon-plus300:before {
+  content: "\\e920";
+}
+.icon-share300:before {
+  content: "\\e921";
+}
+.icon-target300:before {
+  content: "\\e922";
+}
+.icon-tire300:before {
+  content: "\\e923";
+}
+.icon-tools300:before {
+  content: "\\e924";
+}
+.icon-tread300:before {
+  content: "\\e925";
+}
+.icon-truck300:before {
+  content: "\\e926";
+}
+.icon-x300:before {
+  content: "\\e927";
+}
+.icon-arrowDown100:before {
+  content: "\\e928";
+}
+.icon-arrowLeft100:before {
+  content: "\\e929";
+}
+.icon-arrowRight100:before {
+  content: "\\e92a";
+}
+.icon-arrowUp100:before {
+  content: "\\e92b";
+}
+.icon-bus100:before {
+  content: "\\e92c";
+}
+.icon-check100:before {
+  content: "\\e92d";
+}
+.icon-chevronDown100:before {
+  content: "\\e92e";
+}
+.icon-chevronLeft100:before {
+  content: "\\e92f";
+}
+.icon-chevronRight100:before {
+  content: "\\e930";
+}
+.icon-chevronUp100:before {
+  content: "\\e931";
+}
+.icon-envelope100:before {
+  content: "\\e932";
+}
+.icon-externalLink100:before {
+  content: "\\e933";
+}
+.icon-filter100:before {
+  content: "\\e934";
+}
+.icon-globe100:before {
+  content: "\\e935";
+}
+.icon-leaf100:before {
+  content: "\\e936";
+}
+.icon-magnifyingGlass100:before {
+  content: "\\e937";
+}
+.icon-minus100:before {
+  content: "\\e938";
+}
+.icon-paperclip100:before {
+  content: "\\e939";
+}
+.icon-phone100:before {
+  content: "\\e93a";
+}
+.icon-pin100:before {
+  content: "\\e93b";
+}
+.icon-play100:before {
+  content: "\\e93c";
+}
+.icon-plus100:before {
+  content: "\\e93d";
+}
+.icon-share100:before {
+  content: "\\e93e";
+}
+.icon-target100:before {
+  content: "\\e93f";
+}
+.icon-tire100:before {
+  content: "\\e940";
+}
+.icon-tools100:before {
+  content: "\\e941";
+}
+.icon-tread100:before {
+  content: "\\e942";
+}
+.icon-truck100:before {
+  content: "\\e943";
+}
+.icon-x100:before {
+  content: "\\e944";
+}
+
+`;
+export {
+  o as default
+};

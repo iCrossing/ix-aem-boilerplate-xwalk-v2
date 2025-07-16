@@ -1,0 +1,89 @@
+/**
+* Brand: firestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .firestone {
+  --card-product-spacing-hor-padding-standard-header-left-sm: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-header-left-lg: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-header-right-sm: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-header-right-lg: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-content-left-sm: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-content-left-lg: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-content-right-sm: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-standard-content-right-lg: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-with-overlay-image-content-left-sm: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-with-overlay-image-content-left-lg: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-with-overlay-image-content-right-sm: var(--spacing-sm4);
+  --card-product-spacing-hor-padding-with-overlay-image-content-right-lg: var(--spacing-sm4);
+  --card-product-spacing-ver-padding-standard-header-top-sm: var(--spacing-sm3);
+  --card-product-spacing-ver-padding-standard-header-top-lg: var(--spacing-sm3);
+  --card-product-spacing-ver-padding-standard-header-bottom-sm: var(--spacing-xs3);
+  --card-product-spacing-ver-padding-standard-header-bottom-lg: var(--spacing-xs3);
+  --card-product-spacing-ver-padding-standard-content-top-sm: var(--spacing-xs3);
+  --card-product-spacing-ver-padding-standard-content-top-lg: var(--spacing-xs3);
+  --card-product-spacing-ver-padding-standard-content-bottom-sm: var(--spacing-sm3);
+  --card-product-spacing-ver-padding-standard-content-bottom-lg: var(--spacing-sm3);
+  --card-product-spacing-ver-padding-with-overlay-image-content-top-sm: var(--spacing-sm3);
+  --card-product-spacing-ver-padding-with-overlay-image-content-top-lg: var(--spacing-sm3);
+  --card-product-spacing-ver-padding-with-overlay-image-content-bottom-sm: var(--spacing-sm4);
+  --card-product-spacing-ver-padding-with-overlay-image-content-bottom-lg: var(--spacing-sm4);
+  --card-product-spacing-hor-item-header-sm: var(--spacing-xs3);
+  --card-product-spacing-hor-item-header-lg: var(--spacing-xs3);
+  --card-product-spacing-hor-item-chip-group-sm: var(--spacing-xs3);
+  --card-product-spacing-hor-item-chip-group-lg: var(--spacing-xs3);
+  --card-product-spacing-hor-item-spec-group-sm: var(--spacing-xs3);
+  --card-product-spacing-hor-item-spec-group-lg: var(--spacing-xs3);
+  --card-product-spacing-hor-item-spec-sm: var(--spacing-xs1);
+  --card-product-spacing-hor-item-spec-lg: var(--spacing-xs1);
+  --card-product-spacing-ver-item-header-sm: var(--spacing-xs2);
+  --card-product-spacing-ver-item-header-lg: var(--spacing-xs2);
+  --card-product-spacing-ver-item-content-sm: var(--spacing-sm1);
+  --card-product-spacing-ver-item-content-lg: var(--spacing-sm1);
+  --card-product-spacing-ver-item-chip-group-sm: var(--spacing-xs3);
+  --card-product-spacing-ver-item-chip-group-lg: var(--spacing-xs3);
+  --card-product-spacing-ver-item-spec-group-sm: var(--spacing-xs3);
+  --card-product-spacing-ver-item-spec-group-lg: var(--spacing-xs3);
+  --card-product-sizing-logo-height-sm: var(--sizing-sm1);
+  --card-product-sizing-logo-height-lg: var(--sizing-sm1);
+  --card-product-color-text-fill-sub-title-default: var(--color-text-fill-3);
+  --card-product-color-text-fill-sub-title-hover: var(--color-text-fill-3);
+  --card-product-color-text-fill-sub-title-focus: var(--color-text-fill-3);
+  --card-product-color-text-fill-specs-default: var(--color-text-fill-4);
+  --card-product-color-text-fill-specs-hover: var(--color-text-fill-4);
+  --card-product-color-text-fill-specs-focus: var(--color-text-fill-4);
+
+  /**  card-product-fonts-sub-title  **/
+  --card-product-fonts-sub-title-font-weight: var(--fonts-body-ui-xl1-font-weight);
+  --card-product-fonts-sub-title-font-size: var(--fonts-body-ui-xl1-font-size);
+  --card-product-fonts-sub-title-line-height: var(--fonts-body-ui-xl1-line-height);
+  --card-product-fonts-sub-title-font-family: var(--fonts-body-ui-xl1-font-family);
+  --card-product-fonts-sub-title-letter-spacing: var(--fonts-body-ui-xl1-letter-spacing);
+  --card-product-fonts-sub-title-margin-spacing: var(--fonts-body-ui-xl1-margin-spacing);
+  --card-product-fonts-sub-title-text-indent: var(--fonts-body-ui-xl1-text-indent);
+  --card-product-fonts-sub-title-text-transform: var(--fonts-body-ui-xl1-text-transform);
+  --card-product-fonts-sub-title-text-decoration: var(--fonts-body-ui-xl1-text-decoration);
+
+  /**  card-product-fonts-spec  **/
+  --card-product-fonts-spec-font-weight: var(--fonts-body-ui-sm2-font-weight);
+  --card-product-fonts-spec-font-size: var(--fonts-body-ui-sm2-font-size);
+  --card-product-fonts-spec-line-height: var(--fonts-body-ui-sm2-line-height);
+  --card-product-fonts-spec-font-family: var(--fonts-body-ui-sm2-font-family);
+  --card-product-fonts-spec-letter-spacing: var(--fonts-body-ui-sm2-letter-spacing);
+  --card-product-fonts-spec-margin-spacing: var(--fonts-body-ui-sm2-margin-spacing);
+  --card-product-fonts-spec-text-indent: var(--fonts-body-ui-sm2-text-indent);
+  --card-product-fonts-spec-text-transform: var(--fonts-body-ui-sm2-text-transform);
+  --card-product-fonts-spec-text-decoration: var(--fonts-body-ui-sm2-text-decoration);
+
+  /**  card-product-fonts-spec-label  **/
+  --card-product-fonts-spec-label-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --card-product-fonts-spec-label-font-size: var(--fonts-body-ui-sm1-font-size);
+  --card-product-fonts-spec-label-line-height: var(--fonts-body-ui-sm1-line-height);
+  --card-product-fonts-spec-label-font-family: var(--fonts-body-ui-sm1-font-family);
+  --card-product-fonts-spec-label-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --card-product-fonts-spec-label-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --card-product-fonts-spec-label-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --card-product-fonts-spec-label-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --card-product-fonts-spec-label-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+  --card-product-border-style-with-overlay-image: var(--border-style-none-sm);
+}

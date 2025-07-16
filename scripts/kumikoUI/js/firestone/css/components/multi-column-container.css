@@ -1,0 +1,15 @@
+/**
+* Brand: firestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .firestone {
+  --multi-column-container-spacing-hor-item-none: var(--spacing-none);
+  --multi-column-container-spacing-hor-item-sm: var(--spacing-sm3);
+  --multi-column-container-spacing-hor-item-md: var(--spacing-sm4);
+  --multi-column-container-spacing-hor-item-lg: var(--spacing-md2);
+  --multi-column-container-spacing-ver-item-none: var(--spacing-none);
+  --multi-column-container-spacing-ver-item-sm: var(--spacing-sm3);
+  --multi-column-container-spacing-ver-item-md: var(--spacing-sm4);
+  --multi-column-container-spacing-ver-item-lg: var(--spacing-md2);
+}

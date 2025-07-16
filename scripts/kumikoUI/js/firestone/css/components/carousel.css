@@ -1,0 +1,21 @@
+/**
+* Brand: firestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .firestone {
+  --carousel-spacing-hor-item-md: var(--spacing-sm3);
+  --carousel-spacing-hor-item-controls-in-line-lg: var(--spacing-sm3);
+  --carousel-spacing-hor-item-controls-in-line-sm: var(--spacing-sm1);
+  --carousel-spacing-hor-item-controls-left-lg: var(--spacing-sm1);
+  --carousel-spacing-hor-item-controls-left-sm: var(--spacing-sm1);
+  --carousel-spacing-hor-item-controls-right-lg: var(--spacing-sm1);
+  --carousel-spacing-hor-item-controls-right-sm: var(--spacing-sm1);
+  --carousel-spacing-hor-item-controls-center-lg: var(--spacing-sm1);
+  --carousel-spacing-hor-item-controls-center-sm: var(--spacing-sm1);
+  --carousel-spacing-hor-item-sm: var(--spacing-sm1);
+  --carousel-spacing-hor-item-lg: var(--spacing-sm4);
+  --carousel-spacing-ver-item-lg: var(--spacing-sm4);
+  --carousel-spacing-ver-item-md: var(--spacing-sm3);
+  --carousel-spacing-ver-item-sm: var(--spacing-sm1);
+}

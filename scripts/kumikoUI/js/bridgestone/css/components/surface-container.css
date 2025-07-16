@@ -1,0 +1,23 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --surface-container-spacing-ver-padding-top-none: var(--spacing-none);
+  --surface-container-spacing-ver-padding-top-sm: var(--spacing-sm3);
+  --surface-container-spacing-ver-padding-top-md: var(--spacing-md2);
+  --surface-container-spacing-ver-padding-top-lg: var(--spacing-md4);
+  --surface-container-spacing-ver-padding-bottom-none: var(--spacing-none);
+  --surface-container-spacing-ver-padding-bottom-sm: var(--spacing-sm3);
+  --surface-container-spacing-ver-padding-bottom-md: var(--spacing-md2);
+  --surface-container-spacing-ver-padding-bottom-lg: var(--spacing-md4);
+  --surface-container-spacing-hor-padding-left-none: var(--spacing-none);
+  --surface-container-spacing-hor-padding-left-sm: var(--spacing-sm3);
+  --surface-container-spacing-hor-padding-left-md: var(--spacing-md2);
+  --surface-container-spacing-hor-padding-left-lg: var(--spacing-md4);
+  --surface-container-spacing-hor-padding-right-none: var(--spacing-none);
+  --surface-container-spacing-hor-padding-right-sm: var(--spacing-sm3);
+  --surface-container-spacing-hor-padding-right-md: var(--spacing-md2);
+  --surface-container-spacing-hor-padding-right-lg: var(--spacing-md4);
+}

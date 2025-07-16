@@ -1,0 +1,656 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --dropdown-spacing-hor-padding-left-standard-sm: var(--spacing-none);
+  --dropdown-spacing-hor-padding-left-standard-md: var(--spacing-none);
+  --dropdown-spacing-hor-padding-left-standard-lg: var(--spacing-none);
+  --dropdown-spacing-hor-padding-left-outlined-input-sm: var(--spacing-xs2);
+  --dropdown-spacing-hor-padding-left-outlined-input-md: var(--spacing-xs3);
+  --dropdown-spacing-hor-padding-left-outlined-input-lg: var(--spacing-sm1);
+  --dropdown-spacing-hor-padding-left-outlined-label-with-selected-text-sm: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-left-outlined-label-with-selected-text-md: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-left-outlined-label-with-selected-text-lg: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-left-outlined-label-with-placeholder-sm: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-left-outlined-label-with-placeholder-md: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-left-outlined-label-with-placeholder-lg: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-left-outlined-sm: var(--spacing-none);
+  --dropdown-spacing-hor-padding-left-outlined-md: var(--spacing-none);
+  --dropdown-spacing-hor-padding-left-outlined-lg: var(--spacing-none);
+  --dropdown-spacing-hor-padding-right-standard-sm: var(--spacing-none);
+  --dropdown-spacing-hor-padding-right-standard-md: var(--spacing-none);
+  --dropdown-spacing-hor-padding-right-standard-lg: var(--spacing-none);
+  --dropdown-spacing-hor-padding-right-outlined-input-sm: var(--spacing-xs2);
+  --dropdown-spacing-hor-padding-right-outlined-input-md: var(--spacing-xs3);
+  --dropdown-spacing-hor-padding-right-outlined-input-lg: var(--spacing-sm1);
+  --dropdown-spacing-hor-padding-right-outlined-label-with-selected-text-sm: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-right-outlined-label-with-selected-text-md: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-right-outlined-label-with-selected-text-lg: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-right-outlined-label-with-placeholder-sm: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-right-outlined-label-with-placeholder-md: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-right-outlined-label-with-placeholder-lg: var(--spacing-xs1);
+  --dropdown-spacing-hor-padding-right-outlined-sm: var(--spacing-none);
+  --dropdown-spacing-hor-padding-right-outlined-md: var(--spacing-none);
+  --dropdown-spacing-hor-padding-right-outlined-lg: var(--spacing-none);
+  --dropdown-spacing-hor-item-standard-input-sm: var(--spacing-xs1);
+  --dropdown-spacing-hor-item-standard-input-md: var(--spacing-xs1);
+  --dropdown-spacing-hor-item-standard-input-lg: var(--spacing-xs1);
+  --dropdown-spacing-hor-item-outlined-input-sm: var(--spacing-xs1);
+  --dropdown-spacing-hor-item-outlined-input-md: var(--spacing-xs1);
+  --dropdown-spacing-hor-item-outlined-input-lg: var(--spacing-xs1);
+  --dropdown-spacing-ver-item-standard-sm: var(--spacing-xs1);
+  --dropdown-spacing-ver-item-standard-md: var(--spacing-xs2);
+  --dropdown-spacing-ver-item-standard-lg: var(--spacing-xs3);
+  --dropdown-spacing-ver-item-outlined-sm: var(--spacing-xs1);
+  --dropdown-spacing-ver-item-outlined-md: var(--spacing-xs2);
+  --dropdown-spacing-ver-item-outlined-lg: var(--spacing-xs2);
+  --dropdown-spacing-ver-padding-top-outlined-input-sm: var(--spacing-xs2);
+  --dropdown-spacing-ver-padding-top-outlined-input-md: var(--spacing-xs3);
+  --dropdown-spacing-ver-padding-top-outlined-input-lg: var(--spacing-sm1);
+  --dropdown-spacing-ver-padding-top-outlined-sm: var(--spacing-none);
+  --dropdown-spacing-ver-padding-top-outlined-md: var(--spacing-none);
+  --dropdown-spacing-ver-padding-top-outlined-lg: var(--spacing-none);
+  --dropdown-spacing-ver-padding-top-standard-sm: var(--spacing-none);
+  --dropdown-spacing-ver-padding-top-standard-md: var(--spacing-none);
+  --dropdown-spacing-ver-padding-top-standard-lg: var(--spacing-none);
+  --dropdown-spacing-ver-padding-bottom-standard-sm: var(--spacing-none);
+  --dropdown-spacing-ver-padding-bottom-standard-md: var(--spacing-none);
+  --dropdown-spacing-ver-padding-bottom-standard-lg: var(--spacing-none);
+  --dropdown-spacing-ver-padding-bottom-outlined-input-sm: var(--spacing-xs2);
+  --dropdown-spacing-ver-padding-bottom-outlined-input-md: var(--spacing-xs3);
+  --dropdown-spacing-ver-padding-bottom-outlined-input-lg: var(--spacing-sm1);
+  --dropdown-spacing-ver-padding-bottom-outlined-sm: var(--spacing-none);
+  --dropdown-spacing-ver-padding-bottom-outlined-md: var(--spacing-none);
+  --dropdown-spacing-ver-padding-bottom-outlined-lg: var(--spacing-none);
+  --dropdown-color-container-fill-standard-default: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-standard-hover: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-standard-focus: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-standard-disabled: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-standard-error: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-standard-active: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-outlined-default: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-outlined-hover: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-outlined-focus: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-outlined-disabled: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-outlined-error: var(--color-container-fill-no-fill);
+  --dropdown-color-container-fill-outlined-active: var(--color-container-fill-no-fill);
+  --dropdown-color-text-fill-label-standard-with-selected-text-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-standard-with-selected-text-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-standard-with-selected-text-focus: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-standard-with-selected-text-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-label-standard-with-selected-text-error: var(--color-action-error-3);
+  --dropdown-color-text-fill-label-standard-with-selected-text-active: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-standard-with-placeholder-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-standard-with-placeholder-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-standard-with-placeholder-focus: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-standard-with-placeholder-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-label-standard-with-placeholder-error: var(--color-action-error-3);
+  --dropdown-color-text-fill-label-standard-with-placeholder-active: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-standard-no-placeholder-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-standard-no-placeholder-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-standard-no-placeholder-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-label-standard-no-placeholder-error: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-with-placeholder-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-with-placeholder-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-with-placeholder-focus: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-outlined-with-placeholder-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-label-outlined-with-placeholder-error: var(--color-action-error-3);
+  --dropdown-color-text-fill-label-outlined-with-placeholder-active: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-outlined-no-placeholder-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-no-placeholder-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-no-placeholder-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-label-outlined-no-placeholder-error: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-with-selected-text-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-with-selected-text-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-label-outlined-with-selected-text-focus: var(--color-action-focus-6);
+  --dropdown-color-text-fill-label-outlined-with-selected-text-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-label-outlined-with-selected-text-error: var(--color-action-error-3);
+  --dropdown-color-text-fill-label-outlined-with-selected-text-active: var(--color-action-focus-6);
+  --dropdown-color-text-fill-placeholder-text-standard-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-standard-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-standard-focus: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-standard-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-placeholder-text-standard-error: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-standard-active: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-outlined-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-outlined-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-outlined-focus: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-outlined-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-placeholder-text-outlined-error: var(--color-text-fill-3);
+  --dropdown-color-text-fill-placeholder-text-outlined-active: var(--color-text-fill-3);
+  --dropdown-color-text-fill-selected-text-standard-default: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-standard-hover: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-standard-focus: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-standard-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-selected-text-standard-error: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-standard-active: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-outlined-default: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-outlined-hover: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-outlined-focus: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-outlined-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-selected-text-outlined-error: var(--color-text-fill-4);
+  --dropdown-color-text-fill-selected-text-outlined-active: var(--color-text-fill-4);
+  --dropdown-color-text-fill-helper-text-standard-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-helper-text-standard-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-helper-text-standard-focus: var(--color-text-fill-3);
+  --dropdown-color-text-fill-helper-text-standard-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-helper-text-standard-error: var(--color-action-error-3);
+  --dropdown-color-text-fill-helper-text-outline-default: var(--color-text-fill-3);
+  --dropdown-color-text-fill-helper-text-outline-hover: var(--color-text-fill-3);
+  --dropdown-color-text-fill-helper-text-outline-focus: var(--color-text-fill-3);
+  --dropdown-color-text-fill-helper-text-outline-disabled: var(--color-action-disabled-2);
+  --dropdown-color-text-fill-helper-text-outline-error: var(--color-action-error-3);
+  --dropdown-color-icon-fill-standard-default: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-standard-hover: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-standard-focus: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-standard-disabled: var(--color-action-disabled-2);
+  --dropdown-color-icon-fill-standard-error: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-standard-active: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-outlined-default: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-outlined-hover: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-outlined-focus: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-outlined-disabled: var(--color-action-disabled-2);
+  --dropdown-color-icon-fill-outlined-error: var(--color-icon-fill-4);
+  --dropdown-color-icon-fill-outlined-active: var(--color-icon-fill-4);
+  --dropdown-border-radius-outlined-top-right: var(--border-radius-xs);
+  --dropdown-border-radius-outlined-top-left: var(--border-radius-xs);
+  --dropdown-border-radius-outlined-bottom-right: var(--border-radius-xs);
+  --dropdown-border-radius-outlined-bottom-left: var(--border-radius-xs);
+  --dropdown-border-radius-standard-top-right: var(--border-radius-none);
+  --dropdown-border-radius-standard-top-left: var(--border-radius-none);
+  --dropdown-border-radius-standard-bottom-right: var(--border-radius-none);
+  --dropdown-border-radius-standard-bottom-left: var(--border-radius-none);
+  --dropdown-border-style-standard-default: var(--border-style-solid-action-default-xs4);
+  --dropdown-border-style-standard-hover: var(--border-style-solid-action-hover-xs6);
+  --dropdown-border-style-standard-focus: var(--border-style-solid-action-focus-xs6);
+  --dropdown-border-style-standard-disabled: var(--border-style-solid-action-disabled-xs2);
+  --dropdown-border-style-standard-error: var(--border-style-solid-action-error-xs3);
+  --dropdown-border-style-standard-active: var(--border-style-solid-action-focus-xs6);
+  --dropdown-border-style-outlined-default: var(--border-style-solid-action-default-xs4);
+  --dropdown-border-style-outlined-hover: var(--border-style-solid-action-hover-xs6);
+  --dropdown-border-style-outlined-focus: var(--border-style-solid-action-focus-xs6);
+  --dropdown-border-style-outlined-disabled: var(--border-style-solid-action-disabled-xs2);
+  --dropdown-border-style-outlined-error: var(--border-style-solid-action-error-xs3);
+  --dropdown-border-style-outlined-active: var(--border-style-solid-action-focus-xs6);
+
+  /**  dropdown-fonts-label-standard-with-selected-text-sm  **/
+  --dropdown-fonts-label-standard-with-selected-text-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-standard-with-selected-text-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-standard-with-selected-text-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-standard-with-selected-text-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-standard-with-selected-text-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-standard-with-selected-text-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-standard-with-selected-text-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-standard-with-selected-text-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-standard-with-selected-text-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-with-selected-text-md  **/
+  --dropdown-fonts-label-standard-with-selected-text-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-standard-with-selected-text-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-standard-with-selected-text-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-standard-with-selected-text-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-standard-with-selected-text-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-standard-with-selected-text-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-standard-with-selected-text-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-standard-with-selected-text-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-standard-with-selected-text-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-with-selected-text-lg  **/
+  --dropdown-fonts-label-standard-with-selected-text-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-standard-with-selected-text-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-standard-with-selected-text-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-standard-with-selected-text-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-standard-with-selected-text-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-standard-with-selected-text-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-standard-with-selected-text-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-standard-with-selected-text-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-standard-with-selected-text-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-no-placeholder-sm  **/
+  --dropdown-fonts-label-standard-no-placeholder-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-label-standard-no-placeholder-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-label-standard-no-placeholder-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-label-standard-no-placeholder-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-label-standard-no-placeholder-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-label-standard-no-placeholder-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-label-standard-no-placeholder-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-label-standard-no-placeholder-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-label-standard-no-placeholder-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-no-placeholder-md  **/
+  --dropdown-fonts-label-standard-no-placeholder-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-label-standard-no-placeholder-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-label-standard-no-placeholder-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-label-standard-no-placeholder-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-label-standard-no-placeholder-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-label-standard-no-placeholder-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-label-standard-no-placeholder-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-label-standard-no-placeholder-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-label-standard-no-placeholder-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-no-placeholder-lg  **/
+  --dropdown-fonts-label-standard-no-placeholder-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-label-standard-no-placeholder-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-label-standard-no-placeholder-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-label-standard-no-placeholder-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-label-standard-no-placeholder-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-label-standard-no-placeholder-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-label-standard-no-placeholder-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-label-standard-no-placeholder-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-label-standard-no-placeholder-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-with-placeholder-sm  **/
+  --dropdown-fonts-label-standard-with-placeholder-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-standard-with-placeholder-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-standard-with-placeholder-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-standard-with-placeholder-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-standard-with-placeholder-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-standard-with-placeholder-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-standard-with-placeholder-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-standard-with-placeholder-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-standard-with-placeholder-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-with-placeholder-md  **/
+  --dropdown-fonts-label-standard-with-placeholder-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-standard-with-placeholder-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-standard-with-placeholder-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-standard-with-placeholder-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-standard-with-placeholder-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-standard-with-placeholder-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-standard-with-placeholder-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-standard-with-placeholder-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-standard-with-placeholder-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-standard-with-placeholder-lg  **/
+  --dropdown-fonts-label-standard-with-placeholder-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-standard-with-placeholder-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-standard-with-placeholder-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-standard-with-placeholder-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-standard-with-placeholder-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-standard-with-placeholder-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-standard-with-placeholder-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-standard-with-placeholder-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-standard-with-placeholder-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-with-selected-text-sm  **/
+  --dropdown-fonts-label-outlined-with-selected-text-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-outlined-with-selected-text-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-with-selected-text-md  **/
+  --dropdown-fonts-label-outlined-with-selected-text-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-outlined-with-selected-text-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-outlined-with-selected-text-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-outlined-with-selected-text-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-outlined-with-selected-text-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-outlined-with-selected-text-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-outlined-with-selected-text-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-outlined-with-selected-text-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-outlined-with-selected-text-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-with-selected-text-lg  **/
+  --dropdown-fonts-label-outlined-with-selected-text-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-outlined-with-selected-text-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-no-placeholder-sm  **/
+  --dropdown-fonts-label-outlined-no-placeholder-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-label-outlined-no-placeholder-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-no-placeholder-md  **/
+  --dropdown-fonts-label-outlined-no-placeholder-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-label-outlined-no-placeholder-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-label-outlined-no-placeholder-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-label-outlined-no-placeholder-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-label-outlined-no-placeholder-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-label-outlined-no-placeholder-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-label-outlined-no-placeholder-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-label-outlined-no-placeholder-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-label-outlined-no-placeholder-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-no-placeholder-lg  **/
+  --dropdown-fonts-label-outlined-no-placeholder-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-label-outlined-no-placeholder-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-with-placeholder-sm  **/
+  --dropdown-fonts-label-outlined-with-placeholder-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-outlined-with-placeholder-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-with-placeholder-md  **/
+  --dropdown-fonts-label-outlined-with-placeholder-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-outlined-with-placeholder-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-outlined-with-placeholder-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-outlined-with-placeholder-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-outlined-with-placeholder-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-outlined-with-placeholder-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-outlined-with-placeholder-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-outlined-with-placeholder-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-outlined-with-placeholder-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-label-outlined-with-placeholder-lg  **/
+  --dropdown-fonts-label-outlined-with-placeholder-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-label-outlined-with-placeholder-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-entered-text-standard-sm  **/
+  --dropdown-fonts-entered-text-standard-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-entered-text-standard-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-entered-text-standard-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-entered-text-standard-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-entered-text-standard-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-entered-text-standard-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-entered-text-standard-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-entered-text-standard-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-entered-text-standard-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-entered-text-standard-md  **/
+  --dropdown-fonts-entered-text-standard-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-entered-text-standard-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-entered-text-standard-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-entered-text-standard-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-entered-text-standard-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-entered-text-standard-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-entered-text-standard-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-entered-text-standard-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-entered-text-standard-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-entered-text-standard-lg  **/
+  --dropdown-fonts-entered-text-standard-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-entered-text-standard-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-entered-text-standard-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-entered-text-standard-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-entered-text-standard-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-entered-text-standard-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-entered-text-standard-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-entered-text-standard-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-entered-text-standard-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-entered-text-outlined-sm  **/
+  --dropdown-fonts-entered-text-outlined-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-entered-text-outlined-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-entered-text-outlined-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-entered-text-outlined-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-entered-text-outlined-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-entered-text-outlined-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-entered-text-outlined-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-entered-text-outlined-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-entered-text-outlined-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-entered-text-outlined-md  **/
+  --dropdown-fonts-entered-text-outlined-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-entered-text-outlined-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-entered-text-outlined-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-entered-text-outlined-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-entered-text-outlined-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-entered-text-outlined-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-entered-text-outlined-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-entered-text-outlined-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-entered-text-outlined-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-entered-text-outlined-lg  **/
+  --dropdown-fonts-entered-text-outlined-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-entered-text-outlined-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-entered-text-outlined-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-entered-text-outlined-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-entered-text-outlined-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-entered-text-outlined-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-entered-text-outlined-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-entered-text-outlined-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-entered-text-outlined-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-helper-text-standard-sm  **/
+  --dropdown-fonts-helper-text-standard-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-helper-text-standard-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-helper-text-standard-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-helper-text-standard-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-helper-text-standard-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-helper-text-standard-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-helper-text-standard-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-helper-text-standard-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-helper-text-standard-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-helper-text-standard-md  **/
+  --dropdown-fonts-helper-text-standard-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-helper-text-standard-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-helper-text-standard-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-helper-text-standard-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-helper-text-standard-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-helper-text-standard-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-helper-text-standard-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-helper-text-standard-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-helper-text-standard-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-helper-text-standard-lg  **/
+  --dropdown-fonts-helper-text-standard-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-helper-text-standard-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-helper-text-standard-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-helper-text-standard-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-helper-text-standard-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-helper-text-standard-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-helper-text-standard-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-helper-text-standard-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-helper-text-standard-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-helper-text-outlined-sm  **/
+  --dropdown-fonts-helper-text-outlined-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-helper-text-outlined-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-helper-text-outlined-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-helper-text-outlined-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-helper-text-outlined-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-helper-text-outlined-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-helper-text-outlined-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-helper-text-outlined-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-helper-text-outlined-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-helper-text-outlined-md  **/
+  --dropdown-fonts-helper-text-outlined-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-helper-text-outlined-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-helper-text-outlined-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-helper-text-outlined-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-helper-text-outlined-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-helper-text-outlined-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-helper-text-outlined-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-helper-text-outlined-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-helper-text-outlined-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-helper-text-outlined-lg  **/
+  --dropdown-fonts-helper-text-outlined-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --dropdown-fonts-helper-text-outlined-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --dropdown-fonts-helper-text-outlined-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --dropdown-fonts-helper-text-outlined-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --dropdown-fonts-helper-text-outlined-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --dropdown-fonts-helper-text-outlined-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --dropdown-fonts-helper-text-outlined-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --dropdown-fonts-helper-text-outlined-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --dropdown-fonts-helper-text-outlined-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  dropdown-fonts-placeholder-text-standard-sm  **/
+  --dropdown-fonts-placeholder-text-standard-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-placeholder-text-standard-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-placeholder-text-standard-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-placeholder-text-standard-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-placeholder-text-standard-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-placeholder-text-standard-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-placeholder-text-standard-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-placeholder-text-standard-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-placeholder-text-standard-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-placeholder-text-standard-md  **/
+  --dropdown-fonts-placeholder-text-standard-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-placeholder-text-standard-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-placeholder-text-standard-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-placeholder-text-standard-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-placeholder-text-standard-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-placeholder-text-standard-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-placeholder-text-standard-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-placeholder-text-standard-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-placeholder-text-standard-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-placeholder-text-standard-lg  **/
+  --dropdown-fonts-placeholder-text-standard-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-placeholder-text-standard-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-placeholder-text-standard-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-placeholder-text-standard-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-placeholder-text-standard-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-placeholder-text-standard-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-placeholder-text-standard-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-placeholder-text-standard-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-placeholder-text-standard-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-placeholder-text-outlined-sm  **/
+  --dropdown-fonts-placeholder-text-outlined-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-placeholder-text-outlined-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-placeholder-text-outlined-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-placeholder-text-outlined-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-placeholder-text-outlined-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-placeholder-text-outlined-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-placeholder-text-outlined-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-placeholder-text-outlined-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-placeholder-text-outlined-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-placeholder-text-outlined-md  **/
+  --dropdown-fonts-placeholder-text-outlined-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-placeholder-text-outlined-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-placeholder-text-outlined-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-placeholder-text-outlined-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-placeholder-text-outlined-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-placeholder-text-outlined-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-placeholder-text-outlined-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-placeholder-text-outlined-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-placeholder-text-outlined-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  dropdown-fonts-placeholder-text-outlined-lg  **/
+  --dropdown-fonts-placeholder-text-outlined-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-fonts-placeholder-text-outlined-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-fonts-placeholder-text-outlined-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-fonts-placeholder-text-outlined-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-fonts-placeholder-text-outlined-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-fonts-placeholder-text-outlined-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-fonts-placeholder-text-outlined-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-fonts-placeholder-text-outlined-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-fonts-placeholder-text-outlined-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+  --dropdown-sizing-icon-container-standard-sm: var(--sizing-sm2);
+  --dropdown-sizing-icon-container-standard-md: var(--sizing-sm2);
+  --dropdown-sizing-icon-container-standard-lg: var(--sizing-sm2);
+  --dropdown-sizing-icon-container-outlined-sm: var(--sizing-sm2);
+  --dropdown-sizing-icon-container-outlined-md: var(--sizing-sm2);
+  --dropdown-sizing-icon-container-outlined-lg: var(--sizing-sm2);
+  --dropdown-sizing-icon-standard-sm: var(--sizing-icon-md);
+  --dropdown-sizing-icon-standard-md: var(--sizing-icon-md);
+  --dropdown-sizing-icon-standard-lg: var(--sizing-icon-md);
+  --dropdown-sizing-icon-outlined-sm: var(--sizing-icon-md);
+  --dropdown-sizing-icon-outlined-md: var(--sizing-icon-md);
+  --dropdown-sizing-icon-outlined-lg: var(--sizing-icon-md);
+  --dropdown-elevation-outlined-default: var(--elevation-none);
+  --dropdown-elevation-outlined-hover: var(--elevation-none);
+  --dropdown-elevation-outlined-focus: var(--elevation-none);
+  --dropdown-elevation-outlined-disabled: var(--elevation-none);
+  --dropdown-elevation-outlined-error: var(--elevation-none);
+  --dropdown-elevation-outlined-active: var(--elevation-none);
+  --dropdown-menu-item-spacing-hor-padding-left: var(--spacing-sm3);
+  --dropdown-menu-item-spacing-hor-padding-right: var(--spacing-sm1);
+  --dropdown-menu-item-spacing-ver-padding-top: var(--spacing-xs1);
+  --dropdown-menu-item-spacing-ver-padding-bottom: var(--spacing-xs1);
+  --dropdown-menu-item-spacing-hor-item: var(--spacing-xs1);
+  --dropdown-menu-item-color-container-fill-not-selected-default: var(--color-container-fill-no-fill);
+  --dropdown-menu-item-color-container-fill-not-selected-hover: var(--color-action-hover-1);
+  --dropdown-menu-item-color-container-fill-not-selected-focus: var(--color-container-fill-no-fill);
+  --dropdown-menu-item-color-container-fill-not-selected-disabled: var(--color-container-fill-no-fill);
+  --dropdown-menu-item-color-container-fill-selected-default: var(--color-action-pressed-1);
+  --dropdown-menu-item-color-container-fill-selected-hover: var(--color-action-hover-1);
+  --dropdown-menu-item-color-container-fill-selected-focus: var(--color-action-pressed-1);
+  --dropdown-menu-item-color-container-fill-selected-disabled: var(--color-container-fill-no-fill);
+  --dropdown-menu-item-color-text-fill-not-selected-default: var(--color-text-fill-4);
+  --dropdown-menu-item-color-text-fill-not-selected-hover: var(--color-text-fill-4);
+  --dropdown-menu-item-color-text-fill-not-selected-focus: var(--color-text-fill-4);
+  --dropdown-menu-item-color-text-fill-not-selected-disabled: var(--color-action-disabled-2);
+  --dropdown-menu-item-color-text-fill-selected-hover: var(--color-text-fill-4);
+  --dropdown-menu-item-color-text-fill-selected-default: var(--color-text-fill-4);
+  --dropdown-menu-item-color-text-fill-selected-focus: var(--color-text-fill-4);
+  --dropdown-menu-item-color-text-fill-selected-disabled: var(--color-action-disabled-2);
+  --dropdown-menu-item-border-radius-not-selected-default: var(--border-radius-none);
+  --dropdown-menu-item-border-radius-not-selected-hover: var(--border-radius-none);
+  --dropdown-menu-item-border-radius-not-selected-focus: var(--border-radius-xs);
+  --dropdown-menu-item-border-radius-not-selected-disabled: var(--border-radius-none);
+  --dropdown-menu-item-border-radius-selected-default: var(--border-radius-none);
+  --dropdown-menu-item-border-radius-selected-hover: var(--border-radius-none);
+  --dropdown-menu-item-border-radius-selected-focus: var(--border-radius-xs);
+  --dropdown-menu-item-border-radius-selected-disabled: var(--border-radius-none);
+  --dropdown-menu-item-border-style-not-selected-default: var(--border-style-none-xs);
+  --dropdown-menu-item-border-style-not-selected-hover: var(--border-style-none-xs);
+  --dropdown-menu-item-border-style-not-selected-focus: var(--border-style-dashed-action-focus-xs3);
+  --dropdown-menu-item-border-style-not-selected-disabled: var(--border-style-none-xs);
+  --dropdown-menu-item-border-style-selected-default: var(--border-style-none-xs);
+  --dropdown-menu-item-border-style-selected-hover: var(--border-style-none-xs);
+  --dropdown-menu-item-border-style-selected-focus: var(--border-style-dashed-action-focus-xs3);
+  --dropdown-menu-item-border-style-selected-disabled: var(--border-style-none-xs);
+  --dropdown-menu-item-elevation-not-selected-default: var(--elevation-none);
+  --dropdown-menu-item-elevation-not-selected-hover: var(--elevation-none);
+  --dropdown-menu-item-elevation-not-selected-focus: var(--elevation-none);
+  --dropdown-menu-item-elevation-not-selected-disabled: var(--elevation-none);
+  --dropdown-menu-item-elevation-selected-default: var(--elevation-none);
+  --dropdown-menu-item-elevation-selected-hover: var(--elevation-none);
+  --dropdown-menu-item-elevation-selected-focus: var(--elevation-none);
+  --dropdown-menu-item-elevation-selected-disabled: var(--elevation-none);
+
+  /**  dropdown-menu-item-fonts-item  **/
+  --dropdown-menu-item-fonts-item-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --dropdown-menu-item-fonts-item-font-size: var(--fonts-body-ui-lg1-font-size);
+  --dropdown-menu-item-fonts-item-line-height: var(--fonts-body-ui-lg1-line-height);
+  --dropdown-menu-item-fonts-item-font-family: var(--fonts-body-ui-lg1-font-family);
+  --dropdown-menu-item-fonts-item-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --dropdown-menu-item-fonts-item-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --dropdown-menu-item-fonts-item-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --dropdown-menu-item-fonts-item-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --dropdown-menu-item-fonts-item-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+  --dropdown-menu-spacing-hor-padding-left: var(--spacing-none);
+  --dropdown-menu-spacing-hor-padding-right: var(--spacing-none);
+  --dropdown-menu-spacing-ver-padding-top: var(--spacing-xs1);
+  --dropdown-menu-spacing-ver-padding-bottom: var(--spacing-xs1);
+  --dropdown-menu-spacing-ver-item: var(--spacing-none);
+  --dropdown-menu-color-container-fill: var(--color-container-fill-1);
+  --dropdown-menu-border-radius: var(--border-radius-xs);
+  --dropdown-menu-border-style: var(--border-style-none-xs);
+  --dropdown-menu-elevation: var(--elevation-sm);
+}

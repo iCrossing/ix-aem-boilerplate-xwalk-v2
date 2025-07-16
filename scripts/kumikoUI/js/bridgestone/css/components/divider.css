@@ -1,0 +1,40 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --divider-spacing-hor-padding-left-none: var(--spacing-none);
+  --divider-spacing-hor-padding-left-xs: var(--spacing-xs1);
+  --divider-spacing-hor-padding-left-sm: var(--spacing-xs2);
+  --divider-spacing-hor-padding-left-md: var(--spacing-sm1);
+  --divider-spacing-hor-padding-left-lg: var(--spacing-sm4);
+  --divider-spacing-hor-padding-right-none: var(--spacing-none);
+  --divider-spacing-hor-padding-right-xs: var(--spacing-xs1);
+  --divider-spacing-hor-padding-right-sm: var(--spacing-xs2);
+  --divider-spacing-hor-padding-right-md: var(--spacing-sm1);
+  --divider-spacing-hor-padding-right-lg: var(--spacing-sm4);
+  --divider-spacing-ver-padding-top-none: var(--spacing-none);
+  --divider-spacing-ver-padding-top-xs: var(--spacing-xs1);
+  --divider-spacing-ver-padding-top-sm: var(--spacing-xs2);
+  --divider-spacing-ver-padding-top-md: var(--spacing-sm1);
+  --divider-spacing-ver-padding-top-lg: var(--spacing-sm4);
+  --divider-spacing-ver-padding-bottom-none: var(--spacing-none);
+  --divider-spacing-ver-padding-bottom-xs: var(--spacing-xs1);
+  --divider-spacing-ver-padding-bottom-sm: var(--spacing-xs2);
+  --divider-spacing-ver-padding-bottom-md: var(--spacing-sm1);
+  --divider-spacing-ver-padding-bottom-lg: var(--spacing-sm4);
+  --divider-border-style-solid-xs1: var(--border-style-solid-xs1);
+  --divider-border-style-solid-sm1: var(--border-style-solid-sm1);
+  --divider-border-style-solid-xs2: var(--border-style-solid-xs2);
+  --divider-border-style-solid-sm2: var(--border-style-solid-sm2);
+  --divider-border-style-solid-xs3: var(--border-style-solid-xs3);
+  --divider-border-style-solid-sm3: var(--border-style-solid-sm3);
+  --divider-border-style-solid-xs4: var(--border-style-solid-xs4);
+  --divider-border-style-solid-sm4: var(--border-style-solid-sm4);
+  --divider-border-style-none: var(--border-style-none-xs);
+  --divider-border-style-dashed-1: var(--border-style-dashed-xs1);
+  --divider-border-style-dashed-2: var(--border-style-dashed-xs2);
+  --divider-border-style-dashed-3: var(--border-style-dashed-xs3);
+  --divider-border-style-dashed-4: var(--border-style-dashed-xs4);
+}

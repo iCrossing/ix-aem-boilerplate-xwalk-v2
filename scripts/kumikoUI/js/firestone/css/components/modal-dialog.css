@@ -1,0 +1,93 @@
+/**
+* Brand: firestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .firestone {
+  --modal-dialog-spacing-hor-padding-header-left-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-header-left-md: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-header-left-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-header-right-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-header-right-md: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-header-right-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-footer-left-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-footer-left-md: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-footer-left-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-footer-right-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-footer-right-md: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-footer-right-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-content-left-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-content-left-md: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-content-left-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-content-right-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-content-right-md: var(--spacing-sm3);
+  --modal-dialog-spacing-hor-padding-content-right-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-ver-padding-header-top-sm: var(--spacing-sm1);
+  --modal-dialog-spacing-ver-padding-header-top-md: var(--spacing-sm1);
+  --modal-dialog-spacing-ver-padding-header-top-lg: var(--spacing-sm1);
+  --modal-dialog-spacing-ver-padding-header-bottom-sm: var(--spacing-xs3);
+  --modal-dialog-spacing-ver-padding-header-bottom-md: var(--spacing-xs3);
+  --modal-dialog-spacing-ver-padding-header-bottom-lg: var(--spacing-xs3);
+  --modal-dialog-spacing-ver-padding-footer-top-sm: var(--spacing-xs3);
+  --modal-dialog-spacing-ver-padding-footer-top-md: var(--spacing-xs3);
+  --modal-dialog-spacing-ver-padding-footer-top-lg: var(--spacing-xs3);
+  --modal-dialog-spacing-ver-padding-footer-bottom-sm: var(--spacing-sm3);
+  --modal-dialog-spacing-ver-padding-footer-bottom-md: var(--spacing-sm3);
+  --modal-dialog-spacing-ver-padding-footer-bottom-lg: var(--spacing-sm3);
+  --modal-dialog-spacing-ver-padding-content-top-sm: var(--spacing-none);
+  --modal-dialog-spacing-ver-padding-content-top-md: var(--spacing-none);
+  --modal-dialog-spacing-ver-padding-content-top-lg: var(--spacing-none);
+  --modal-dialog-spacing-ver-padding-content-bottom-sm: var(--spacing-none);
+  --modal-dialog-spacing-ver-padding-content-bottom-md: var(--spacing-none);
+  --modal-dialog-spacing-ver-padding-content-bottom-lg: var(--spacing-none);
+  --modal-dialog-spacing-ver-item-sm: var(--spacing-none);
+  --modal-dialog-spacing-ver-item-md: var(--spacing-none);
+  --modal-dialog-spacing-ver-item-lg: var(--spacing-none);
+  --modal-dialog-spacing-hor-item-header-sm: var(--spacing-xs2);
+  --modal-dialog-spacing-hor-item-header-md: var(--spacing-xs2);
+  --modal-dialog-spacing-hor-item-header-lg: var(--spacing-xs2);
+  --modal-dialog-color-container-fill-header: var(--color-container-fill-1);
+  --modal-dialog-color-container-fill-footer: var(--color-container-fill-1);
+  --modal-dialog-color-container-fill-content: var(--color-container-fill-1);
+  --modal-dialog-color-container-fill-modal: var(--color-container-fill-1);
+  --modal-dialog-color-text-fill-title: var(--color-text-fill-4);
+  --modal-dialog-border-radius-top-right: var(--border-radius-xs);
+  --modal-dialog-border-radius-top-left: var(--border-radius-xs);
+  --modal-dialog-border-radius-bottom-right: var(--border-radius-xs);
+  --modal-dialog-border-radius-bottom-left: var(--border-radius-xs);
+  --modal-dialog-border-style: var(--border-style-none-xs);
+  --modal-dialog-elevation: var(--elevation-sm);
+
+  /**  modal-dialog-fonts-title-sm  **/
+  --modal-dialog-fonts-title-sm-font-weight: var(--fonts-body-ui-md1-font-weight);
+  --modal-dialog-fonts-title-sm-font-size: var(--fonts-body-ui-md1-font-size);
+  --modal-dialog-fonts-title-sm-line-height: var(--fonts-body-ui-md1-line-height);
+  --modal-dialog-fonts-title-sm-font-family: var(--fonts-body-ui-md1-font-family);
+  --modal-dialog-fonts-title-sm-letter-spacing: var(--fonts-body-ui-md1-letter-spacing);
+  --modal-dialog-fonts-title-sm-margin-spacing: var(--fonts-body-ui-md1-margin-spacing);
+  --modal-dialog-fonts-title-sm-text-indent: var(--fonts-body-ui-md1-text-indent);
+  --modal-dialog-fonts-title-sm-text-transform: var(--fonts-body-ui-md1-text-transform);
+  --modal-dialog-fonts-title-sm-text-decoration: var(--fonts-body-ui-md1-text-decoration);
+
+  /**  modal-dialog-fonts-title-md  **/
+  --modal-dialog-fonts-title-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --modal-dialog-fonts-title-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --modal-dialog-fonts-title-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --modal-dialog-fonts-title-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --modal-dialog-fonts-title-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --modal-dialog-fonts-title-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --modal-dialog-fonts-title-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --modal-dialog-fonts-title-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --modal-dialog-fonts-title-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  modal-dialog-fonts-title-lg  **/
+  --modal-dialog-fonts-title-lg-font-weight: var(--fonts-body-ui-xl1-font-weight);
+  --modal-dialog-fonts-title-lg-font-size: var(--fonts-body-ui-xl1-font-size);
+  --modal-dialog-fonts-title-lg-line-height: var(--fonts-body-ui-xl1-line-height);
+  --modal-dialog-fonts-title-lg-font-family: var(--fonts-body-ui-xl1-font-family);
+  --modal-dialog-fonts-title-lg-letter-spacing: var(--fonts-body-ui-xl1-letter-spacing);
+  --modal-dialog-fonts-title-lg-margin-spacing: var(--fonts-body-ui-xl1-margin-spacing);
+  --modal-dialog-fonts-title-lg-text-indent: var(--fonts-body-ui-xl1-text-indent);
+  --modal-dialog-fonts-title-lg-text-transform: var(--fonts-body-ui-xl1-text-transform);
+  --modal-dialog-fonts-title-lg-text-decoration: var(--fonts-body-ui-xl1-text-decoration);
+}

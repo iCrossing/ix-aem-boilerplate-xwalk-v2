@@ -1,0 +1,30 @@
+/**
+* Brand: firestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .firestone {
+  --tooltip-color-container-fill-on-light: var(--color-container-fill-5);
+  --tooltip-color-container-fill-on-dark: var(--color-container-fill-2);
+  --tooltip-color-text-fill-label-on-light: var(--color-text-fill-1);
+  --tooltip-color-text-fill-label-on-dark: var(--color-text-fill-4);
+  --tooltip-spacing-hor-padding-left: var(--spacing-xs3);
+  --tooltip-spacing-hor-padding-right: var(--spacing-xs3);
+  --tooltip-spacing-ver-padding-top: var(--spacing-xs1);
+  --tooltip-spacing-ver-padding-bottom: var(--spacing-xs1);
+  --tooltip-border-radius: var(--border-radius-xs);
+
+  /**  tooltip-fonts-label  **/
+  --tooltip-fonts-label-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --tooltip-fonts-label-font-size: var(--fonts-body-ui-sm1-font-size);
+  --tooltip-fonts-label-line-height: var(--fonts-body-ui-sm1-line-height);
+  --tooltip-fonts-label-font-family: var(--fonts-body-ui-sm1-font-family);
+  --tooltip-fonts-label-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --tooltip-fonts-label-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --tooltip-fonts-label-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --tooltip-fonts-label-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --tooltip-fonts-label-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+  --tooltip-sizing-arrow-width: var(--sizing-xs3);
+  --tooltip-sizing-arrow-height: var(--sizing-xs1);
+  --tooltip-elevation: var(--elevation-none);
+}

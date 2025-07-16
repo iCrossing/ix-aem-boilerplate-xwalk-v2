@@ -1,0 +1,62 @@
+/**
+* Brand: firestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .firestone {
+  --hero-module-spacing-hor-padding-full-width-container-left-sm: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-full-width-container-left-md: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-full-width-container-left-lg: var(--spacing-md4);
+  --hero-module-spacing-hor-padding-full-width-container-right-sm: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-full-width-container-right-md: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-full-width-container-right-lg: var(--spacing-md4);
+  --hero-module-spacing-hor-padding-full-width-content-left-sm: var(--spacing-none);
+  --hero-module-spacing-hor-padding-full-width-content-left-md: var(--spacing-none);
+  --hero-module-spacing-hor-padding-full-width-content-left-lg: var(--spacing-none);
+  --hero-module-spacing-hor-padding-full-width-content-right-sm: var(--spacing-none);
+  --hero-module-spacing-hor-padding-full-width-content-right-md: var(--spacing-none);
+  --hero-module-spacing-hor-padding-full-width-content-right-lg: var(--spacing-none);
+  --hero-module-spacing-hor-padding-fifty-fifty-content-left-sm: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-fifty-fifty-content-left-md: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-fifty-fifty-content-left-lg: var(--spacing-none);
+  --hero-module-spacing-hor-padding-fifty-fifty-content-right-sm: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-fifty-fifty-content-right-md: var(--spacing-sm3);
+  --hero-module-spacing-hor-padding-fifty-fifty-content-right-lg: var(--spacing-none);
+  --hero-module-spacing-ver-padding-fifty-fifty-content-top-sm: var(--spacing-sm3);
+  --hero-module-spacing-ver-padding-fifty-fifty-content-top-md: var(--spacing-sm3);
+  --hero-module-spacing-ver-padding-fifty-fifty-content-top-lg: var(--spacing-none);
+  --hero-module-spacing-ver-padding-fifty-fifty-content-bottom-sm: var(--spacing-md2);
+  --hero-module-spacing-ver-padding-fifty-fifty-content-bottom-md: var(--spacing-md2);
+  --hero-module-spacing-ver-padding-fifty-fifty-content-bottom-lg: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-container-top-sm: var(--spacing-md2);
+  --hero-module-spacing-ver-padding-full-width-container-top-md: var(--spacing-md2);
+  --hero-module-spacing-ver-padding-full-width-container-top-lg: var(--spacing-md4);
+  --hero-module-spacing-ver-padding-full-width-container-bottom-sm: var(--spacing-md2);
+  --hero-module-spacing-ver-padding-full-width-container-bottom-md: var(--spacing-md2);
+  --hero-module-spacing-ver-padding-full-width-container-bottom-lg: var(--spacing-md4);
+  --hero-module-spacing-ver-padding-full-width-content-top-style1-sm: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-content-top-style1-md: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-content-top-style1-lg: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-content-top-style2-lg: var(--spacing-md4);
+  --hero-module-spacing-ver-padding-full-width-content-bottom-style1-sm: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-content-bottom-style1-md: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-content-bottom-style1-lg: var(--spacing-none);
+  --hero-module-spacing-ver-padding-full-width-content-bottom-style2-lg: var(--spacing-md4);
+  --hero-module-spacing-ver-item-full-width-content-lg: var(--spacing-sm3);
+  --hero-module-spacing-ver-item-full-width-content-md: var(--spacing-sm1);
+  --hero-module-spacing-ver-item-full-width-content-sm: var(--spacing-sm1);
+  --hero-module-spacing-ver-item-fifty-fifty-content-lg: var(--spacing-sm3);
+  --hero-module-spacing-ver-item-fifty-fifty-content-md: var(--spacing-sm1);
+  --hero-module-spacing-ver-item-fifty-fifty-content-sm: var(--spacing-sm1);
+  --hero-module-spacing-hor-item-fifty-fifty-container-lg: var(--spacing-md2);
+  --hero-module-color-container-fill-full-width-overlay-lg: var(--color-gradient-overlay-horizontal);
+  --hero-module-color-container-fill-full-width-overlay-md: var(--color-gradient-overlay-horizontal);
+  --hero-module-color-container-fill-full-width-overlay-sm: var(--color-gradient-overlay-vertical);
+  --hero-module-border-radius-fifty-fifty-media-sm: var(--border-radius-none);
+  --hero-module-border-radius-fifty-fifty-media-md: var(--border-radius-none);
+  --hero-module-border-radius-fifty-fifty-media-lg: var(--border-radius-lg);
+  --hero-module-border-style-fifty-fifty-media-sm: var(--border-style-none-xs);
+  --hero-module-border-style-fifty-fifty-media-md: var(--border-style-none-xs);
+  --hero-module-border-style-fifty-fifty-media-lg: var(--border-style-none-xs);
+  --hero-module-elevation-fifty-fifty-media: var(--elevation-none);
+}

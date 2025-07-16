@@ -1,0 +1,598 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --text-field-spacing-hor-padding-left-standard-sm: var(--spacing-none);
+  --text-field-spacing-hor-padding-left-standard-md: var(--spacing-none);
+  --text-field-spacing-hor-padding-left-standard-lg: var(--spacing-none);
+  --text-field-spacing-hor-padding-left-outlined-input-sm: var(--spacing-xs2);
+  --text-field-spacing-hor-padding-left-outlined-input-md: var(--spacing-xs3);
+  --text-field-spacing-hor-padding-left-outlined-input-lg: var(--spacing-sm1);
+  --text-field-spacing-hor-padding-left-outlined-label-with-entered-text-sm: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-left-outlined-label-with-entered-text-md: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-left-outlined-label-with-entered-text-lg: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-left-outlined-label-with-placeholder-sm: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-left-outlined-label-with-placeholder-md: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-left-outlined-label-with-placeholder-lg: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-left-outlined-sm: var(--spacing-none);
+  --text-field-spacing-hor-padding-left-outlined-md: var(--spacing-none);
+  --text-field-spacing-hor-padding-left-outlined-lg: var(--spacing-none);
+  --text-field-spacing-hor-padding-right-standard-sm: var(--spacing-none);
+  --text-field-spacing-hor-padding-right-standard-md: var(--spacing-none);
+  --text-field-spacing-hor-padding-right-standard-lg: var(--spacing-none);
+  --text-field-spacing-hor-padding-right-outlined-input-sm: var(--spacing-xs2);
+  --text-field-spacing-hor-padding-right-outlined-input-md: var(--spacing-xs3);
+  --text-field-spacing-hor-padding-right-outlined-input-lg: var(--spacing-sm1);
+  --text-field-spacing-hor-padding-right-outlined-label-with-entered-text-sm: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-right-outlined-label-with-entered-text-md: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-right-outlined-label-with-entered-text-lg: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-right-outlined-label-with-placeholder-sm: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-right-outlined-label-with-placeholder-md: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-right-outlined-label-with-placeholder-lg: var(--spacing-xs1);
+  --text-field-spacing-hor-padding-right-outlined-sm: var(--spacing-none);
+  --text-field-spacing-hor-padding-right-outlined-md: var(--spacing-none);
+  --text-field-spacing-hor-padding-right-outlined-lg: var(--spacing-none);
+  --text-field-spacing-hor-item-standard-input-sm: var(--spacing-xs1);
+  --text-field-spacing-hor-item-standard-input-md: var(--spacing-xs1);
+  --text-field-spacing-hor-item-standard-input-lg: var(--spacing-xs1);
+  --text-field-spacing-hor-item-outlined-input-sm: var(--spacing-xs1);
+  --text-field-spacing-hor-item-outlined-input-md: var(--spacing-xs1);
+  --text-field-spacing-hor-item-outlined-input-lg: var(--spacing-xs1);
+  --text-field-spacing-ver-item-standard-sm: var(--spacing-xs1);
+  --text-field-spacing-ver-item-standard-md: var(--spacing-xs2);
+  --text-field-spacing-ver-item-standard-lg: var(--spacing-xs3);
+  --text-field-spacing-ver-item-outlined-sm: var(--spacing-xs1);
+  --text-field-spacing-ver-item-outlined-md: var(--spacing-xs2);
+  --text-field-spacing-ver-item-outlined-lg: var(--spacing-xs2);
+  --text-field-spacing-ver-padding-top-outlined-input-sm: var(--spacing-xs2);
+  --text-field-spacing-ver-padding-top-outlined-input-md: var(--spacing-xs3);
+  --text-field-spacing-ver-padding-top-outlined-input-lg: var(--spacing-sm1);
+  --text-field-spacing-ver-padding-top-outlined-sm: var(--spacing-none);
+  --text-field-spacing-ver-padding-top-outlined-md: var(--spacing-none);
+  --text-field-spacing-ver-padding-top-outlined-lg: var(--spacing-none);
+  --text-field-spacing-ver-padding-top-standard-sm: var(--spacing-none);
+  --text-field-spacing-ver-padding-top-standard-md: var(--spacing-none);
+  --text-field-spacing-ver-padding-top-standard-lg: var(--spacing-none);
+  --text-field-spacing-ver-padding-bottom-standard-sm: var(--spacing-none);
+  --text-field-spacing-ver-padding-bottom-standard-md: var(--spacing-none);
+  --text-field-spacing-ver-padding-bottom-standard-lg: var(--spacing-none);
+  --text-field-spacing-ver-padding-bottom-outlined-input-sm: var(--spacing-xs2);
+  --text-field-spacing-ver-padding-bottom-outlined-input-md: var(--spacing-xs3);
+  --text-field-spacing-ver-padding-bottom-outlined-input-lg: var(--spacing-sm1);
+  --text-field-spacing-ver-padding-bottom-outlined-sm: var(--spacing-none);
+  --text-field-spacing-ver-padding-bottom-outlined-md: var(--spacing-none);
+  --text-field-spacing-ver-padding-bottom-outlined-lg: var(--spacing-none);
+  --text-field-color-container-fill-standard-default: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-standard-hover: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-standard-focus: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-standard-disabled: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-standard-error: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-outlined-default: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-outlined-hover: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-outlined-focus: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-outlined-disabled: var(--color-container-fill-no-fill);
+  --text-field-color-container-fill-outlined-error: var(--color-container-fill-no-fill);
+  --text-field-color-text-fill-label-standard-with-entered-text-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-standard-with-entered-text-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-standard-with-entered-text-focus: var(--color-action-focus-6);
+  --text-field-color-text-fill-label-standard-with-entered-text-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-label-standard-with-entered-text-error: var(--color-action-error-3);
+  --text-field-color-text-fill-label-standard-with-placeholder-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-standard-with-placeholder-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-standard-with-placeholder-focus: var(--color-action-focus-6);
+  --text-field-color-text-fill-label-standard-with-placeholder-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-label-standard-with-placeholder-error: var(--color-action-error-3);
+  --text-field-color-text-fill-label-standard-no-placeholder-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-standard-no-placeholder-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-standard-no-placeholder-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-label-standard-no-placeholder-error: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-with-placeholder-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-with-placeholder-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-with-placeholder-focus: var(--color-action-focus-6);
+  --text-field-color-text-fill-label-outlined-with-placeholder-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-label-outlined-with-placeholder-error: var(--color-action-error-3);
+  --text-field-color-text-fill-label-outlined-no-placeholder-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-no-placeholder-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-no-placeholder-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-label-outlined-no-placeholder-error: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-with-entered-text-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-with-entered-text-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-label-outlined-with-entered-text-focus: var(--color-action-focus-6);
+  --text-field-color-text-fill-label-outlined-with-entered-text-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-label-outlined-with-entered-text-error: var(--color-action-error-3);
+  --text-field-color-text-fill-placeholder-text-standard-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-standard-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-standard-focus: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-standard-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-placeholder-text-standard-error: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-outlined-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-outlined-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-outlined-focus: var(--color-text-fill-3);
+  --text-field-color-text-fill-placeholder-text-outlined-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-placeholder-text-outlined-error: var(--color-text-fill-3);
+  --text-field-color-text-fill-entered-text-standard-default: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-standard-hover: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-standard-focus: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-standard-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-entered-text-standard-error: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-outlined-default: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-outlined-hover: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-outlined-focus: var(--color-text-fill-4);
+  --text-field-color-text-fill-entered-text-outlined-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-entered-text-outlined-error: var(--color-text-fill-4);
+  --text-field-color-text-fill-helper-text-standard-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-helper-text-standard-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-helper-text-standard-focus: var(--color-text-fill-3);
+  --text-field-color-text-fill-helper-text-standard-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-helper-text-standard-error: var(--color-action-error-3);
+  --text-field-color-text-fill-helper-text-outline-default: var(--color-text-fill-3);
+  --text-field-color-text-fill-helper-text-outline-hover: var(--color-text-fill-3);
+  --text-field-color-text-fill-helper-text-outline-focus: var(--color-text-fill-3);
+  --text-field-color-text-fill-helper-text-outline-disabled: var(--color-action-disabled-2);
+  --text-field-color-text-fill-helper-text-outline-error: var(--color-action-error-3);
+  --text-field-color-icon-fill-left-standard-default: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-standard-hover: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-standard-focus: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-standard-disabled: var(--color-action-disabled-2);
+  --text-field-color-icon-fill-left-standard-error: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-outlined-default: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-outlined-hover: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-outlined-focus: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-left-outlined-disabled: var(--color-action-disabled-2);
+  --text-field-color-icon-fill-left-outlined-error: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-standard-default: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-standard-hover: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-standard-focus: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-standard-disabled: var(--color-action-disabled-2);
+  --text-field-color-icon-fill-right-standard-error: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-outlined-default: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-outlined-hover: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-outlined-focus: var(--color-icon-fill-4);
+  --text-field-color-icon-fill-right-outlined-disabled: var(--color-action-disabled-2);
+  --text-field-color-icon-fill-right-outlined-error: var(--color-icon-fill-4);
+  --text-field-border-radius-outlined-top-right: var(--border-radius-xs);
+  --text-field-border-radius-outlined-top-left: var(--border-radius-xs);
+  --text-field-border-radius-outlined-bottom-right: var(--border-radius-xs);
+  --text-field-border-radius-outlined-bottom-left: var(--border-radius-xs);
+  --text-field-border-radius-standard-top-right: var(--border-radius-none);
+  --text-field-border-radius-standard-top-left: var(--border-radius-none);
+  --text-field-border-radius-standard-bottom-right: var(--border-radius-none);
+  --text-field-border-radius-standard-bottom-left: var(--border-radius-none);
+  --text-field-border-style-standard-default: var(--border-style-solid-action-default-xs4);
+  --text-field-border-style-standard-hover: var(--border-style-solid-action-hover-xs6);
+  --text-field-border-style-standard-focus: var(--border-style-solid-action-focus-xs6);
+  --text-field-border-style-standard-disabled: var(--border-style-solid-action-disabled-xs2);
+  --text-field-border-style-standard-error: var(--border-style-solid-action-error-xs3);
+  --text-field-border-style-outlined-default: var(--border-style-solid-action-default-xs4);
+  --text-field-border-style-outlined-hover: var(--border-style-solid-action-hover-xs6);
+  --text-field-border-style-outlined-focus: var(--border-style-solid-action-focus-xs6);
+  --text-field-border-style-outlined-disabled: var(--border-style-solid-action-disabled-xs2);
+  --text-field-border-style-outlined-error: var(--border-style-solid-action-error-xs3);
+
+  /**  text-field-fonts-label-standard-with-entered-text-sm  **/
+  --text-field-fonts-label-standard-with-entered-text-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-standard-with-entered-text-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-standard-with-entered-text-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-standard-with-entered-text-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-standard-with-entered-text-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-standard-with-entered-text-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-standard-with-entered-text-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-standard-with-entered-text-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-standard-with-entered-text-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-standard-with-entered-text-md  **/
+  --text-field-fonts-label-standard-with-entered-text-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-standard-with-entered-text-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-standard-with-entered-text-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-standard-with-entered-text-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-standard-with-entered-text-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-standard-with-entered-text-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-standard-with-entered-text-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-standard-with-entered-text-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-standard-with-entered-text-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-standard-with-entered-text-lg  **/
+  --text-field-fonts-label-standard-with-entered-text-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-standard-with-entered-text-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-standard-with-entered-text-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-standard-with-entered-text-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-standard-with-entered-text-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-standard-with-entered-text-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-standard-with-entered-text-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-standard-with-entered-text-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-standard-with-entered-text-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-standard-no-placeholder-sm  **/
+  --text-field-fonts-label-standard-no-placeholder-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-label-standard-no-placeholder-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-label-standard-no-placeholder-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-label-standard-no-placeholder-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-label-standard-no-placeholder-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-label-standard-no-placeholder-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-label-standard-no-placeholder-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-label-standard-no-placeholder-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-label-standard-no-placeholder-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-label-standard-no-placeholder-md  **/
+  --text-field-fonts-label-standard-no-placeholder-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-label-standard-no-placeholder-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-label-standard-no-placeholder-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-label-standard-no-placeholder-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-label-standard-no-placeholder-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-label-standard-no-placeholder-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-label-standard-no-placeholder-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-label-standard-no-placeholder-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-label-standard-no-placeholder-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-label-standard-no-placeholder-lg  **/
+  --text-field-fonts-label-standard-no-placeholder-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-label-standard-no-placeholder-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-label-standard-no-placeholder-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-label-standard-no-placeholder-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-label-standard-no-placeholder-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-label-standard-no-placeholder-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-label-standard-no-placeholder-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-label-standard-no-placeholder-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-label-standard-no-placeholder-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-label-standard-with-placeholder-sm  **/
+  --text-field-fonts-label-standard-with-placeholder-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-standard-with-placeholder-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-standard-with-placeholder-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-standard-with-placeholder-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-standard-with-placeholder-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-standard-with-placeholder-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-standard-with-placeholder-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-standard-with-placeholder-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-standard-with-placeholder-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-standard-with-placeholder-md  **/
+  --text-field-fonts-label-standard-with-placeholder-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-standard-with-placeholder-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-standard-with-placeholder-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-standard-with-placeholder-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-standard-with-placeholder-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-standard-with-placeholder-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-standard-with-placeholder-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-standard-with-placeholder-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-standard-with-placeholder-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-standard-with-placeholder-lg  **/
+  --text-field-fonts-label-standard-with-placeholder-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-standard-with-placeholder-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-standard-with-placeholder-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-standard-with-placeholder-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-standard-with-placeholder-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-standard-with-placeholder-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-standard-with-placeholder-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-standard-with-placeholder-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-standard-with-placeholder-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-with-entered-text-sm  **/
+  --text-field-fonts-label-outlined-with-entered-text-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-outlined-with-entered-text-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-outlined-with-entered-text-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-outlined-with-entered-text-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-outlined-with-entered-text-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-outlined-with-entered-text-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-outlined-with-entered-text-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-outlined-with-entered-text-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-outlined-with-entered-text-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-with-entered-text-md  **/
+  --text-field-fonts-label-outlined-with-entered-text-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-outlined-with-entered-text-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-outlined-with-entered-text-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-outlined-with-entered-text-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-outlined-with-entered-text-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-outlined-with-entered-text-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-outlined-with-entered-text-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-outlined-with-entered-text-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-outlined-with-entered-text-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-with-entered-text-lg  **/
+  --text-field-fonts-label-outlined-with-entered-text-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-outlined-with-entered-text-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-outlined-with-entered-text-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-outlined-with-entered-text-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-outlined-with-entered-text-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-outlined-with-entered-text-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-outlined-with-entered-text-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-outlined-with-entered-text-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-outlined-with-entered-text-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-no-placeholder-sm  **/
+  --text-field-fonts-label-outlined-no-placeholder-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-label-outlined-no-placeholder-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-label-outlined-no-placeholder-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-label-outlined-no-placeholder-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-label-outlined-no-placeholder-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-label-outlined-no-placeholder-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-label-outlined-no-placeholder-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-label-outlined-no-placeholder-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-label-outlined-no-placeholder-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-no-placeholder-md  **/
+  --text-field-fonts-label-outlined-no-placeholder-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-label-outlined-no-placeholder-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-label-outlined-no-placeholder-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-label-outlined-no-placeholder-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-label-outlined-no-placeholder-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-label-outlined-no-placeholder-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-label-outlined-no-placeholder-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-label-outlined-no-placeholder-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-label-outlined-no-placeholder-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-no-placeholder-lg  **/
+  --text-field-fonts-label-outlined-no-placeholder-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-label-outlined-no-placeholder-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-label-outlined-no-placeholder-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-label-outlined-no-placeholder-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-label-outlined-no-placeholder-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-label-outlined-no-placeholder-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-label-outlined-no-placeholder-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-label-outlined-no-placeholder-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-label-outlined-no-placeholder-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-with-placeholder-sm  **/
+  --text-field-fonts-label-outlined-with-placeholder-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-outlined-with-placeholder-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-outlined-with-placeholder-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-outlined-with-placeholder-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-outlined-with-placeholder-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-outlined-with-placeholder-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-outlined-with-placeholder-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-outlined-with-placeholder-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-outlined-with-placeholder-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-with-placeholder-md  **/
+  --text-field-fonts-label-outlined-with-placeholder-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-outlined-with-placeholder-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-outlined-with-placeholder-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-outlined-with-placeholder-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-outlined-with-placeholder-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-outlined-with-placeholder-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-outlined-with-placeholder-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-outlined-with-placeholder-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-outlined-with-placeholder-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-label-outlined-with-placeholder-lg  **/
+  --text-field-fonts-label-outlined-with-placeholder-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-label-outlined-with-placeholder-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-label-outlined-with-placeholder-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-label-outlined-with-placeholder-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-label-outlined-with-placeholder-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-label-outlined-with-placeholder-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-label-outlined-with-placeholder-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-label-outlined-with-placeholder-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-label-outlined-with-placeholder-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-entered-text-standard-sm  **/
+  --text-field-fonts-entered-text-standard-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-entered-text-standard-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-entered-text-standard-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-entered-text-standard-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-entered-text-standard-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-entered-text-standard-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-entered-text-standard-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-entered-text-standard-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-entered-text-standard-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-entered-text-standard-md  **/
+  --text-field-fonts-entered-text-standard-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-entered-text-standard-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-entered-text-standard-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-entered-text-standard-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-entered-text-standard-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-entered-text-standard-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-entered-text-standard-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-entered-text-standard-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-entered-text-standard-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-entered-text-standard-lg  **/
+  --text-field-fonts-entered-text-standard-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-entered-text-standard-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-entered-text-standard-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-entered-text-standard-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-entered-text-standard-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-entered-text-standard-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-entered-text-standard-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-entered-text-standard-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-entered-text-standard-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-entered-text-outlined-sm  **/
+  --text-field-fonts-entered-text-outlined-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-entered-text-outlined-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-entered-text-outlined-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-entered-text-outlined-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-entered-text-outlined-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-entered-text-outlined-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-entered-text-outlined-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-entered-text-outlined-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-entered-text-outlined-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-entered-text-outlined-md  **/
+  --text-field-fonts-entered-text-outlined-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-entered-text-outlined-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-entered-text-outlined-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-entered-text-outlined-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-entered-text-outlined-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-entered-text-outlined-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-entered-text-outlined-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-entered-text-outlined-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-entered-text-outlined-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-entered-text-outlined-lg  **/
+  --text-field-fonts-entered-text-outlined-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-entered-text-outlined-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-entered-text-outlined-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-entered-text-outlined-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-entered-text-outlined-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-entered-text-outlined-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-entered-text-outlined-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-entered-text-outlined-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-entered-text-outlined-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-helper-text-standard-sm  **/
+  --text-field-fonts-helper-text-standard-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-helper-text-standard-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-helper-text-standard-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-helper-text-standard-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-helper-text-standard-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-helper-text-standard-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-helper-text-standard-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-helper-text-standard-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-helper-text-standard-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-helper-text-standard-md  **/
+  --text-field-fonts-helper-text-standard-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-helper-text-standard-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-helper-text-standard-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-helper-text-standard-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-helper-text-standard-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-helper-text-standard-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-helper-text-standard-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-helper-text-standard-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-helper-text-standard-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-helper-text-standard-lg  **/
+  --text-field-fonts-helper-text-standard-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-helper-text-standard-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-helper-text-standard-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-helper-text-standard-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-helper-text-standard-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-helper-text-standard-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-helper-text-standard-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-helper-text-standard-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-helper-text-standard-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-helper-text-outlined-sm  **/
+  --text-field-fonts-helper-text-outlined-sm-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-helper-text-outlined-sm-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-helper-text-outlined-sm-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-helper-text-outlined-sm-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-helper-text-outlined-sm-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-helper-text-outlined-sm-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-helper-text-outlined-sm-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-helper-text-outlined-sm-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-helper-text-outlined-sm-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-helper-text-outlined-md  **/
+  --text-field-fonts-helper-text-outlined-md-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-helper-text-outlined-md-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-helper-text-outlined-md-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-helper-text-outlined-md-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-helper-text-outlined-md-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-helper-text-outlined-md-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-helper-text-outlined-md-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-helper-text-outlined-md-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-helper-text-outlined-md-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-helper-text-outlined-lg  **/
+  --text-field-fonts-helper-text-outlined-lg-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --text-field-fonts-helper-text-outlined-lg-font-size: var(--fonts-body-ui-sm1-font-size);
+  --text-field-fonts-helper-text-outlined-lg-line-height: var(--fonts-body-ui-sm1-line-height);
+  --text-field-fonts-helper-text-outlined-lg-font-family: var(--fonts-body-ui-sm1-font-family);
+  --text-field-fonts-helper-text-outlined-lg-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --text-field-fonts-helper-text-outlined-lg-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --text-field-fonts-helper-text-outlined-lg-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --text-field-fonts-helper-text-outlined-lg-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --text-field-fonts-helper-text-outlined-lg-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  text-field-fonts-placeholder-text-standard-sm  **/
+  --text-field-fonts-placeholder-text-standard-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-placeholder-text-standard-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-placeholder-text-standard-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-placeholder-text-standard-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-placeholder-text-standard-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-placeholder-text-standard-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-placeholder-text-standard-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-placeholder-text-standard-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-placeholder-text-standard-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-placeholder-text-standard-md  **/
+  --text-field-fonts-placeholder-text-standard-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-placeholder-text-standard-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-placeholder-text-standard-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-placeholder-text-standard-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-placeholder-text-standard-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-placeholder-text-standard-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-placeholder-text-standard-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-placeholder-text-standard-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-placeholder-text-standard-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-placeholder-text-standard-lg  **/
+  --text-field-fonts-placeholder-text-standard-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-placeholder-text-standard-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-placeholder-text-standard-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-placeholder-text-standard-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-placeholder-text-standard-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-placeholder-text-standard-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-placeholder-text-standard-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-placeholder-text-standard-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-placeholder-text-standard-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-placeholder-text-outlined-sm  **/
+  --text-field-fonts-placeholder-text-outlined-sm-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-placeholder-text-outlined-sm-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-placeholder-text-outlined-sm-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-placeholder-text-outlined-sm-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-placeholder-text-outlined-sm-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-placeholder-text-outlined-sm-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-placeholder-text-outlined-sm-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-placeholder-text-outlined-sm-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-placeholder-text-outlined-sm-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-placeholder-text-outlined-md  **/
+  --text-field-fonts-placeholder-text-outlined-md-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-placeholder-text-outlined-md-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-placeholder-text-outlined-md-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-placeholder-text-outlined-md-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-placeholder-text-outlined-md-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-placeholder-text-outlined-md-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-placeholder-text-outlined-md-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-placeholder-text-outlined-md-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-placeholder-text-outlined-md-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+
+  /**  text-field-fonts-placeholder-text-outlined-lg  **/
+  --text-field-fonts-placeholder-text-outlined-lg-font-weight: var(--fonts-body-ui-lg1-font-weight);
+  --text-field-fonts-placeholder-text-outlined-lg-font-size: var(--fonts-body-ui-lg1-font-size);
+  --text-field-fonts-placeholder-text-outlined-lg-line-height: var(--fonts-body-ui-lg1-line-height);
+  --text-field-fonts-placeholder-text-outlined-lg-font-family: var(--fonts-body-ui-lg1-font-family);
+  --text-field-fonts-placeholder-text-outlined-lg-letter-spacing: var(--fonts-body-ui-lg1-letter-spacing);
+  --text-field-fonts-placeholder-text-outlined-lg-margin-spacing: var(--fonts-body-ui-lg1-margin-spacing);
+  --text-field-fonts-placeholder-text-outlined-lg-text-indent: var(--fonts-body-ui-lg1-text-indent);
+  --text-field-fonts-placeholder-text-outlined-lg-text-transform: var(--fonts-body-ui-lg1-text-transform);
+  --text-field-fonts-placeholder-text-outlined-lg-text-decoration: var(--fonts-body-ui-lg1-text-decoration);
+  --text-field-sizing-icon-container-left-standard-sm: var(--sizing-sm2);
+  --text-field-sizing-icon-container-left-standard-md: var(--sizing-sm2);
+  --text-field-sizing-icon-container-left-standard-lg: var(--sizing-sm2);
+  --text-field-sizing-icon-container-left-outlined-sm: var(--sizing-sm2);
+  --text-field-sizing-icon-container-left-outlined-md: var(--sizing-sm2);
+  --text-field-sizing-icon-container-left-outlined-lg: var(--sizing-sm2);
+  --text-field-sizing-icon-container-right-standard-sm: var(--sizing-sm2);
+  --text-field-sizing-icon-container-right-standard-md: var(--sizing-sm2);
+  --text-field-sizing-icon-container-right-standard-lg: var(--sizing-sm2);
+  --text-field-sizing-icon-container-right-outlined-sm: var(--sizing-sm2);
+  --text-field-sizing-icon-container-right-outlined-md: var(--sizing-sm2);
+  --text-field-sizing-icon-container-right-outlined-lg: var(--sizing-sm2);
+  --text-field-sizing-icon-left-standard-sm: var(--sizing-icon-md);
+  --text-field-sizing-icon-left-standard-md: var(--sizing-icon-md);
+  --text-field-sizing-icon-left-standard-lg: var(--sizing-icon-md);
+  --text-field-sizing-icon-left-outlined-sm: var(--sizing-icon-md);
+  --text-field-sizing-icon-left-outlined-md: var(--sizing-icon-md);
+  --text-field-sizing-icon-left-outlined-lg: var(--sizing-icon-md);
+  --text-field-sizing-icon-right-standard-sm: var(--sizing-icon-md);
+  --text-field-sizing-icon-right-standard-md: var(--sizing-icon-md);
+  --text-field-sizing-icon-right-standard-lg: var(--sizing-icon-md);
+  --text-field-sizing-icon-right-outlined-sm: var(--sizing-icon-md);
+  --text-field-sizing-icon-right-outlined-md: var(--sizing-icon-md);
+  --text-field-sizing-icon-right-outlined-lg: var(--sizing-icon-md);
+  --text-field-elevation-outlined-default: var(--elevation-none);
+  --text-field-elevation-outlined-hover: var(--elevation-none);
+  --text-field-elevation-outlined-focus: var(--elevation-none);
+  --text-field-elevation-outlined-disabled: var(--elevation-none);
+  --text-field-elevation-outlined-error: var(--elevation-none);
+}

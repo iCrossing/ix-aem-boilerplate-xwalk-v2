@@ -1,0 +1,102 @@
+/**
+* Brand: bridgestone
+* Do not edit directly
+* Generated on Fri, Nov 22, 2024, 02:19:49 PM CST
+*/
+ .bridgestone {
+  --card-testimonial-spacing-hor-padding-left-sm: var(--spacing-sm4);
+  --card-testimonial-spacing-hor-padding-left-lg: var(--spacing-sm4);
+  --card-testimonial-spacing-hor-padding-right-sm: var(--spacing-sm4);
+  --card-testimonial-spacing-hor-padding-right-lg: var(--spacing-sm4);
+  --card-testimonial-spacing-ver-padding-top-sm: var(--spacing-sm4);
+  --card-testimonial-spacing-ver-padding-top-lg: var(--spacing-sm4);
+  --card-testimonial-spacing-ver-padding-bottom-sm: var(--spacing-sm4);
+  --card-testimonial-spacing-ver-padding-bottom-lg: var(--spacing-sm4);
+  --card-testimonial-spacing-ver-item-header-sm: var(--spacing-xs2);
+  --card-testimonial-spacing-ver-item-header-lg: var(--spacing-xs2);
+  --card-testimonial-spacing-ver-item-footer-sm: var(--spacing-xs1);
+  --card-testimonial-spacing-ver-item-footer-lg: var(--spacing-xs1);
+  --card-testimonial-spacing-hor-item-header-sm: var(--spacing-xs3);
+  --card-testimonial-spacing-hor-item-header-lg: var(--spacing-xs3);
+  --card-testimonial-spacing-hor-item-footer-sm: var(--spacing-xs3);
+  --card-testimonial-spacing-hor-item-footer-lg: var(--spacing-xs3);
+  --card-testimonial-color-text-fill-header-name-default-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-name-default-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-name-hover-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-name-hover-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-name-focus-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-name-focus-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-job-title-default-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-job-title-default-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-job-title-hover-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-job-title-hover-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-job-title-focus-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-header-job-title-focus-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-name-default-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-name-default-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-name-hover-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-name-hover-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-name-focus-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-name-focus-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-job-title-default-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-job-title-default-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-job-title-hover-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-job-title-hover-2: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-job-title-focus-1: var(--color-text-fill-4);
+  --card-testimonial-color-text-fill-footer-job-title-focus-2: var(--color-text-fill-4);
+
+  /**  card-testimonial-fonts-header-name-sm  **/
+  --card-testimonial-fonts-header-name-sm-font-weight: var(--fonts-heading-mobile-h5-font-weight);
+  --card-testimonial-fonts-header-name-sm-font-size: var(--fonts-heading-mobile-h5-font-size);
+  --card-testimonial-fonts-header-name-sm-line-height: var(--fonts-heading-mobile-h5-line-height);
+  --card-testimonial-fonts-header-name-sm-font-family: var(--fonts-heading-mobile-h5-font-family);
+  --card-testimonial-fonts-header-name-sm-letter-spacing: var(--fonts-heading-mobile-h5-letter-spacing);
+  --card-testimonial-fonts-header-name-sm-margin-spacing: var(--fonts-heading-mobile-h5-margin-spacing);
+  --card-testimonial-fonts-header-name-sm-text-indent: var(--fonts-heading-mobile-h5-text-indent);
+  --card-testimonial-fonts-header-name-sm-text-transform: var(--fonts-heading-mobile-h5-text-transform);
+  --card-testimonial-fonts-header-name-sm-text-decoration: var(--fonts-heading-mobile-h5-text-decoration);
+
+  /**  card-testimonial-fonts-header-name-lg  **/
+  --card-testimonial-fonts-header-name-lg-font-weight: var(--fonts-heading-desktop-h5-font-weight);
+  --card-testimonial-fonts-header-name-lg-font-size: var(--fonts-heading-desktop-h5-font-size);
+  --card-testimonial-fonts-header-name-lg-line-height: var(--fonts-heading-desktop-h5-line-height);
+  --card-testimonial-fonts-header-name-lg-font-family: var(--fonts-heading-desktop-h5-font-family);
+  --card-testimonial-fonts-header-name-lg-letter-spacing: var(--fonts-heading-desktop-h5-letter-spacing);
+  --card-testimonial-fonts-header-name-lg-margin-spacing: var(--fonts-heading-desktop-h5-margin-spacing);
+  --card-testimonial-fonts-header-name-lg-text-indent: var(--fonts-heading-desktop-h5-text-indent);
+  --card-testimonial-fonts-header-name-lg-text-transform: var(--fonts-heading-desktop-h5-text-transform);
+  --card-testimonial-fonts-header-name-lg-text-decoration: var(--fonts-heading-desktop-h5-text-decoration);
+
+  /**  card-testimonial-fonts-header-job-title  **/
+  --card-testimonial-fonts-header-job-title-font-weight: var(--fonts-body-ui-md1-font-weight);
+  --card-testimonial-fonts-header-job-title-font-size: var(--fonts-body-ui-md1-font-size);
+  --card-testimonial-fonts-header-job-title-line-height: var(--fonts-body-ui-md1-line-height);
+  --card-testimonial-fonts-header-job-title-font-family: var(--fonts-body-ui-md1-font-family);
+  --card-testimonial-fonts-header-job-title-letter-spacing: var(--fonts-body-ui-md1-letter-spacing);
+  --card-testimonial-fonts-header-job-title-margin-spacing: var(--fonts-body-ui-md1-margin-spacing);
+  --card-testimonial-fonts-header-job-title-text-indent: var(--fonts-body-ui-md1-text-indent);
+  --card-testimonial-fonts-header-job-title-text-transform: var(--fonts-body-ui-md1-text-transform);
+  --card-testimonial-fonts-header-job-title-text-decoration: var(--fonts-body-ui-md1-text-decoration);
+
+  /**  card-testimonial-fonts-footer-name  **/
+  --card-testimonial-fonts-footer-name-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --card-testimonial-fonts-footer-name-font-size: var(--fonts-body-ui-sm1-font-size);
+  --card-testimonial-fonts-footer-name-line-height: var(--fonts-body-ui-sm1-line-height);
+  --card-testimonial-fonts-footer-name-font-family: var(--fonts-body-ui-sm1-font-family);
+  --card-testimonial-fonts-footer-name-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --card-testimonial-fonts-footer-name-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --card-testimonial-fonts-footer-name-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --card-testimonial-fonts-footer-name-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --card-testimonial-fonts-footer-name-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+
+  /**  card-testimonial-fonts-footer-job-title  **/
+  --card-testimonial-fonts-footer-job-title-font-weight: var(--fonts-body-ui-sm1-font-weight);
+  --card-testimonial-fonts-footer-job-title-font-size: var(--fonts-body-ui-sm1-font-size);
+  --card-testimonial-fonts-footer-job-title-line-height: var(--fonts-body-ui-sm1-line-height);
+  --card-testimonial-fonts-footer-job-title-font-family: var(--fonts-body-ui-sm1-font-family);
+  --card-testimonial-fonts-footer-job-title-letter-spacing: var(--fonts-body-ui-sm1-letter-spacing);
+  --card-testimonial-fonts-footer-job-title-margin-spacing: var(--fonts-body-ui-sm1-margin-spacing);
+  --card-testimonial-fonts-footer-job-title-text-indent: var(--fonts-body-ui-sm1-text-indent);
+  --card-testimonial-fonts-footer-job-title-text-transform: var(--fonts-body-ui-sm1-text-transform);
+  --card-testimonial-fonts-footer-job-title-text-decoration: var(--fonts-body-ui-sm1-text-decoration);
+}
