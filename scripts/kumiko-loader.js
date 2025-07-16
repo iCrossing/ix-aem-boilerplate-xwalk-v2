@@ -12,7 +12,7 @@ const loadedStyles = new Set();
  */
 async function loadKumikoCSS(cssPath) {
   if (loadedStyles.has(cssPath)) return;
-  
+
   try {
     const { loadCSS } = await import('./aem.js');
     await loadCSS(cssPath);
@@ -29,7 +29,7 @@ async function loadKumikoCSS(cssPath) {
  */
 export async function loadKumikoComponent(componentName, theme = 'bridgestone') {
   const componentKey = `${componentName}-${theme}`;
-  
+
   if (loadedComponents.has(componentKey)) {
     return;
   }
@@ -39,11 +39,11 @@ export async function loadKumikoComponent(componentName, theme = 'bridgestone') 
     if (!window.LitElement) {
       await import('lit');
     }
-    
+
     // Import the component directly from NPM package
     // The exact path will depend on how your kumiko-ui package is structured
     await import(`kumiko-ui/js/${componentName}.js`);
-    
+
     // Load theme CSS if available (optional, may need adjustment based on package structure)
     try {
       await loadKumikoCSS(`/node_modules/kumiko-ui/js/${theme}/css/${theme}.theme.css`);
@@ -51,10 +51,9 @@ export async function loadKumikoComponent(componentName, theme = 'bridgestone') 
     } catch (cssError) {
       console.warn(`CSS loading skipped for ${componentName}:`, cssError);
     }
-    
+
     loadedComponents.add(componentKey);
     console.log(`✅ Loaded Kumiko component: ${componentName} with ${theme} theme`);
-    
   } catch (error) {
     console.error(`❌ Failed to load Kumiko component ${componentName}:`, error);
     throw error;
@@ -69,14 +68,14 @@ export async function loadKumikoComponent(componentName, theme = 'bridgestone') 
 export function extractKumikoProps(block) {
   const props = {};
   const rows = [...block.children];
-  
+
   // Handle Universal Editor structure (key-value pairs from authoring)
-  rows.forEach(row => {
+  rows.forEach((row) => {
     const cells = [...row.children];
     if (cells.length >= 2) {
       const key = cells[0].textContent.trim().toLowerCase();
       const value = cells[1].textContent.trim();
-      
+
       // Convert to component attribute format
       switch (key) {
         case 'text':
@@ -89,11 +88,11 @@ export function extractKumikoProps(block) {
           break;
         case 'icon position':
         case 'iconposition':
-          props['iconPosition'] = value;
+          props.iconPosition = value;
           break;
         case 'full width':
         case 'fullwidth':
-          props['fullWidth'] = value === 'true';
+          props.fullWidth = value === 'true';
           break;
         case 'disabled':
         case 'loading':
@@ -111,37 +110,37 @@ export function extractKumikoProps(block) {
       }
     }
   });
-  
+
   return props;
 }
 
 /**
  * Create and configure a Kumiko web component
  * @param {string} tagName - Component tag name
- * @param {Object} props - Properties to set  
+ * @param {Object} props - Properties to set
  * @param {string} content - Inner content
  * @returns {HTMLElement} Configured component
  */
 export function createKumikoComponent(tagName, props = {}, content = '') {
   const element = document.createElement(tagName);
-  
+
   // Set attributes and properties
   Object.entries(props).forEach(([key, value]) => {
     if (key === 'text' || key === 'content') return; // Handle separately
-    
+
     if (typeof value === 'boolean') {
       if (value) element.setAttribute(key, '');
     } else if (value !== undefined && value !== null && value !== '') {
       element.setAttribute(key, value);
     }
   });
-  
+
   // Set content - prioritize content param, then props.text
   const finalContent = content || props.text || '';
   if (finalContent) {
     element.textContent = finalContent;
   }
-  
+
   return element;
 }
 
@@ -151,7 +150,7 @@ export function createKumikoComponent(tagName, props = {}, content = '') {
  */
 export async function loadKumikoComponentFallback(componentName, theme = 'bridgestone') {
   const componentKey = `${componentName}-${theme}`;
-  
+
   if (loadedComponents.has(componentKey)) return;
 
   try {
@@ -180,7 +179,6 @@ export async function loadKumikoComponentFallback(componentName, theme = 'bridge
     }
 
     loadedComponents.add(componentKey);
-
   } catch (error) {
     console.error(`❌ Fallback loading failed for ${componentName}:`, error);
     throw error;
