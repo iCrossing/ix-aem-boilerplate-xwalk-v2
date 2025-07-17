@@ -45,7 +45,7 @@
     "stylelint-config-standard": "38.0.0"
   },
   "dependencies": {
-    "kumiko-ui": "file:~/kumiko-ui-1.0.0.tgz",
+    "kumiko-ui": "1.0.1-24",
     "lit": "^2.0.0"
   }
 }
