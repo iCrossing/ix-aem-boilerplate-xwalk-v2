@@ -73,7 +73,12 @@ export function extractKumikoProps(block) {
 
   propElements.forEach((element) => {
     const propName = element.getAttribute('data-aue-prop');
-    const propValue = element.textContent.trim();
+    let propValue = element.textContent.trim();
+
+    // Special handling for URL
+    if (element.querySelector('a')) {
+      propValue = element.querySelector('a').href;
+    }
 
     // Convert to component attribute format
     switch (propName) {

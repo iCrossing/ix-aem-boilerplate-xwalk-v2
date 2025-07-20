@@ -10,11 +10,16 @@ export default async function decorate(block) {
     await loadKumikoComponent('kmk-button', 'bridgestone');
 
     // Extract configuration from EDS block content
-    // For Universal Editor, the properties come from the authoring interface
     const props = extractKumikoProps(block);
 
+    // Get URL from the anchor tag if present
+    const anchorElement = block.querySelector('a');
+    if (anchorElement) {
+      props.url = anchorElement.href;
+    }
+
     // eslint-disable-next-line no-console
-    console.log(' Extracted props:', props);
+    console.log('📋 Extracted props:', props);
 
     // Create the Kumiko button component
     const kumikoButton = createKumikoComponent('kmk-button', {
@@ -32,21 +37,32 @@ export default async function decorate(block) {
     // eslint-disable-next-line no-console
     console.log('🎯 Created kumiko button:', kumikoButton);
 
-    // Preserve AEM authoring instrumentation
-    moveInstrumentation(block, kumikoButton);
+    // Save the original data attributes from the block
+    const dataAttributes = {};
+    Array.from(block.attributes).forEach(attr => {
+      if (attr.name.startsWith('data-')) {
+        dataAttributes[attr.name] = attr.value;
+      }
+    });
 
-    // Replace block content with web component
-    block.textContent = '';
+    // Clear the block but preserve the class
+    const blockClass = block.className;
+    block.innerHTML = '';
+    block.className = blockClass;
+
+    // Restore data attributes
+    Object.entries(dataAttributes).forEach(([name, value]) => {
+      block.setAttribute(name, value);
+    });
+
+    // Add the web component
     block.appendChild(kumikoButton);
-
-    // Add wrapper class for any additional styling
-    block.classList.add('kumiko-button-wrapper');
 
     // eslint-disable-next-line no-console
     console.log('✅ kmk-button decoration complete');
   } catch (error) {
     // eslint-disable-next-line no-console
-    console.error('Failed to load kmk-button:', error);
+    console.error('❌ Failed to load kmk-button:', error);
     // Fallback: create regular button
     const fallbackButton = document.createElement('button');
     fallbackButton.textContent = block.textContent || 'Button';
