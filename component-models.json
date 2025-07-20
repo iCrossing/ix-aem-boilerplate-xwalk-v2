@@ -216,7 +216,7 @@
     ]
   },
   {
-    "id": "kmk-button",
+    "id": "km-button",
     "fields": [
       {
         "component": "text",
