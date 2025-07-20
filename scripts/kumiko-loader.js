@@ -67,50 +67,40 @@ export async function loadKumikoComponent(componentName, theme = 'bridgestone') 
  */
 export function extractKumikoProps(block) {
   const props = {};
-  const rows = [...block.children];
-
-  // Handle Universal Editor structure (key-value pairs from authoring)
-  rows.forEach((row) => {
-    const cells = [...row.children];
-    if (cells.length >= 2) {
-      const key = cells[0].textContent.trim().toLowerCase();
-      const value = cells[1].textContent.trim();
-
-      // Convert to component attribute format
-      switch (key) {
-        case 'text':
-        case 'variant':
-        case 'size':
-        case 'url':
-        case 'target':
-        case 'icon':
-          props[key] = value;
-          break;
-        case 'icon position':
-        case 'iconposition':
-          props.iconPosition = value;
-          break;
-        case 'full width':
-        case 'fullwidth':
-          props.fullWidth = value === 'true';
-          break;
-        case 'disabled':
-        case 'loading':
-          props[key] = value === 'true';
-          break;
-        default:
-          // Store other properties as data attributes
-          props[`data-${key.replace(/\s+/g, '-')}`] = value;
-      }
-    } else if (cells.length === 1) {
-      // Single cell might contain button text
-      const content = cells[0].textContent.trim();
-      if (content && !props.text) {
-        props.text = content;
-      }
+  
+  // Handle Universal Editor structure with data-aue-prop attributes
+  const propElements = block.querySelectorAll('[data-aue-prop]');
+  
+  propElements.forEach((element) => {
+    const propName = element.getAttribute('data-aue-prop');
+    const propValue = element.textContent.trim();
+    
+    // Convert to component attribute format
+    switch (propName) {
+      case 'text':
+      case 'variant':
+      case 'size':
+      case 'url':
+      case 'target':
+      case 'icon':
+        props[propName] = propValue;
+        break;
+      case 'iconPosition':
+        props.iconPosition = propValue;
+        break;
+      case 'fullWidth':
+        props.fullWidth = propValue === 'true';
+        break;
+      case 'disabled':
+      case 'loading':
+        props[propName] = propValue === 'true';
+        break;
+      default:
+        // Store other properties as data attributes
+        props[`data-${propName.replace(/([A-Z])/g, '-$1').toLowerCase()}`] = propValue;
     }
   });
-
+  
   return props;
 }
 

@@ -9,6 +9,8 @@ export default async function decorate(block) {
     // Extract configuration from EDS block content
     // For Universal Editor, the properties come from the authoring interface
     const props = extractKumikoProps(block);
+    console.log('🔧 Decorating kmk-button block:', block);
+    console.log(' Extracted props:', props);
 
     // Create the Kumiko button component
     const kumikoButton = createKumikoComponent('kmk-button', {
@@ -22,6 +24,7 @@ export default async function decorate(block) {
       'full-width': props.fullWidth || false,
       loading: props.loading || false,
     }, props.text || 'Button');
+    console.log('🎯 Created kumiko button:', kumikoButton);
 
     // Preserve AEM authoring instrumentation
     moveInstrumentation(block, kumikoButton);
@@ -32,6 +35,7 @@ export default async function decorate(block) {
 
     // Add wrapper class for any additional styling
     block.classList.add('kumiko-button-wrapper');
+    console.log('✅ kmk-button decoration complete');
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Failed to load kmk-button:', error);
