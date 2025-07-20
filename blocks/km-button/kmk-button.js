@@ -1,5 +1,4 @@
 import { loadKumikoComponent, extractKumikoProps, createKumikoComponent } from '../../scripts/kumiko-loader.js';
-import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default async function decorate(block) {
   try {
@@ -39,7 +38,7 @@ export default async function decorate(block) {
 
     // Save the original data attributes from the block
     const dataAttributes = {};
-    Array.from(block.attributes).forEach(attr => {
+    Array.from(block.attributes).forEach((attr) => {
       if (attr.name.startsWith('data-')) {
         dataAttributes[attr.name] = attr.value;
       }
