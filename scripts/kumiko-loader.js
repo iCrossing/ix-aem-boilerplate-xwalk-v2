@@ -67,14 +67,14 @@ export async function loadKumikoComponent(componentName, theme = 'bridgestone') 
  */
 export function extractKumikoProps(block) {
   const props = {};
-  
+
   // Handle Universal Editor structure with data-aue-prop attributes
   const propElements = block.querySelectorAll('[data-aue-prop]');
-  
+
   propElements.forEach((element) => {
     const propName = element.getAttribute('data-aue-prop');
     const propValue = element.textContent.trim();
-    
+
     // Convert to component attribute format
     switch (propName) {
       case 'text':
@@ -100,7 +100,7 @@ export function extractKumikoProps(block) {
         props[`data-${propName.replace(/([A-Z])/g, '-$1').toLowerCase()}`] = propValue;
     }
   });
-  
+
   return props;
 }
 

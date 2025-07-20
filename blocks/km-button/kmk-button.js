@@ -3,13 +3,17 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default async function decorate(block) {
   try {
+    // eslint-disable-next-line no-console
+    console.log('🔧 Decorating kmk-button block:', block);
+
     // Load the kmk-button component with bridgestone theme
     await loadKumikoComponent('kmk-button', 'bridgestone');
 
     // Extract configuration from EDS block content
     // For Universal Editor, the properties come from the authoring interface
     const props = extractKumikoProps(block);
-    console.log('🔧 Decorating kmk-button block:', block);
+
+    // eslint-disable-next-line no-console
     console.log(' Extracted props:', props);
 
     // Create the Kumiko button component
@@ -24,6 +28,8 @@ export default async function decorate(block) {
       'full-width': props.fullWidth || false,
       loading: props.loading || false,
     }, props.text || 'Button');
+
+    // eslint-disable-next-line no-console
     console.log('🎯 Created kumiko button:', kumikoButton);
 
     // Preserve AEM authoring instrumentation
@@ -35,6 +41,8 @@ export default async function decorate(block) {
 
     // Add wrapper class for any additional styling
     block.classList.add('kumiko-button-wrapper');
+
+    // eslint-disable-next-line no-console
     console.log('✅ kmk-button decoration complete');
   } catch (error) {
     // eslint-disable-next-line no-console
