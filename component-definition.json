@@ -159,7 +159,7 @@
         },
         {
           "title": "Kumiko Button",
-          "id": "km-button",
+          "id": "kmk-button",
           "plugins": {
             "xwalk": {
               "page": {
