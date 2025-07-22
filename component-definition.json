@@ -159,14 +159,14 @@
         },
         {
           "title": "Kumiko Button",
-          "id": "kmk-button",
+          "id": "km-button",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Kumiko Button",
-                  "model": "kmk-button"
+                  "model": "km-button"
                 }
               }
             }

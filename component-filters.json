@@ -17,7 +17,7 @@
       "columns",
       "fragment",
       "teaser",
-      "kmk-button"
+      "km-button"
     ]
   },
   {
@@ -39,6 +39,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "km-button"
     ]
   }
 ]
