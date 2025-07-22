@@ -5,6 +5,6 @@
     "/content/ix-aem-boilerplate-xwalk/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/ix-aem-boilerplate-xwalk/"
+     "/content/ix-aem-boilerplate-xwalk/"
   ]
 }
