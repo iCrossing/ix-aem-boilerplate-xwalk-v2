@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: "https://author-p34771-e1716656.adobeaemcloud.com/bin/franklin.delivery/icrossing/ix-aem-boilerplate-xwalk/stage"
-    type: "markup"
-    suffix: ".html"
+  /: https://drive.google.com/drive/folders/1j3NOonCvDGdmAaiaX6Q6N9nxlKd14Hi9
