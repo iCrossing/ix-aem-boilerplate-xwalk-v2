@@ -40,11 +40,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "section",
-    "components": [
-      "km-button"
-    ]
   }
 ]

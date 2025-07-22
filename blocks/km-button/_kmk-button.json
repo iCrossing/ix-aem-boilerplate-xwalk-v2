@@ -146,12 +146,5 @@
         ]
       }
     ],
-    "filters": [
-      {
-        "id": "section",
-        "components": [
-          "km-button"
-        ]
-      }
-    ]
+    "filters": []
   }
