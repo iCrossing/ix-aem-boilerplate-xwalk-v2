@@ -2,7 +2,7 @@
     "definitions": [
       {
         "title": "Kumiko Button",
-        "id": "kmk-button",
+        "id": "km-button",
         "plugins": {
           "xwalk": {
             "page": {
@@ -18,7 +18,7 @@
     ],
     "models": [
       {
-        "id": "kmk-button",
+        "id": "km-button",
         "fields": [
           {
             "component": "text",
