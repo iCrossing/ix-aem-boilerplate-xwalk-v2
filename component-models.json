@@ -216,30 +216,85 @@
     ]
   },
   {
-    "id": "ix teaser",
+    "id": "kmk-button-v1",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Button Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "url",
+        "label": "Link URL"
+      },
+      {
+        "component": "select",
+        "name": "variant",
+        "label": "Button Variant",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "size",
+        "label": "Button Size",
+        "options": [
+          {
+            "name": "Small",
+            "value": "sm"
+          },
+          {
+            "name": "Medium",
+            "value": "md"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "video ix",
+    "id": "teaser",
     "fields": [
       {
         "component": "reference",
-        "name": "video",
-        "label": "Video",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "name": "videoAlt",
-        "label": "Alt Text"
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "name": "textContent_text",
+        "label": "Text",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "aem-content",
+        "name": "textContent_cta",
+        "label": "CTA",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "textContent_ctaText",
+        "label": "CTA label",
+        "valueType": "string"
       }
     ]
   }
