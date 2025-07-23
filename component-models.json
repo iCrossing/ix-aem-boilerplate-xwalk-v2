@@ -216,7 +216,7 @@
     ]
   },
   {
-    "id": "km-button",
+    "id": "kumiko-button",
     "fields": [
       {
         "component": "text",
