@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p34771-e1778473.adobeaemcloud.com/bin/franklin.delivery/icrossing/ix-aem-boilerplate-xwalk-stage-eds/integration"
+    url: "https://author-p34771-e1778473.adobeaemcloud.com/bin/franklin.delivery/icrossing/ix-aem-boilerplate-xwalk-v2/integration"
     type: "markup"
     suffix: ".html"
